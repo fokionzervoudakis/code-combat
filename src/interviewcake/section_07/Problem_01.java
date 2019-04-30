@@ -6,6 +6,13 @@ import java.util.Stack;
  {@link dailycodingproblem.problems_041_050.Problem_043}
  */
 public class Problem_01 {
+    /**
+     Asymptotic analysis:
+     <li>space_worst=O(n)
+     <li>push_worst=O(1)
+     <li>pop_worst=O(1)
+     <li>getMax_worst=O(1)
+     */
     class MaxStack {
         private final Stack<Integer> stack = new Stack<>();
         private final Stack<Integer> max = new Stack<>();

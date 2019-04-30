@@ -1,7 +1,5 @@
 package interviewcake.section_05;
 
-import annotation.Backtracking;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -22,7 +20,6 @@ class Problem_05 {
      @return the shortest path from {@code start} to {@code end} if it exists,
      else null
      */
-    @Backtracking
     String[] getPath(Map<String, String[]> graph, String start, String end) {
         if (!graph.containsKey(start) || !graph.containsKey(end)) {
             throw new RuntimeException();
@@ -50,12 +47,12 @@ class Problem_05 {
         return null;
     }
 
-    private String[] getPath(Map<String, String> routeMap, String end) {
+    private String[] getPath(Map<String, String> M, String end) {
         List<String> L = new ArrayList<>();
         String str = end;
         while (str != null) {
             L.add(str);
-            str = routeMap.get(str);
+            str = M.get(str);
         }
         Collections.reverse(L);
         return L.toArray(new String[0]);

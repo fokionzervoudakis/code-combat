@@ -7,34 +7,34 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class Test_02 {
     @Test
     void itTracksTheMinMaxMeanAndModeValues() {
-        var P = new Problem_02();
+        var tracker = new Problem_02().new TempTracker();
 
-        P.insert(50);
+        tracker.insert(50);
 
-        assertEquals(50, P.getMin());
-        assertEquals(50, P.getMax());
-        assertEquals(50.0, P.getMean());
-        assertEquals(50, P.getMode());
+        assertEquals(50, tracker.getMin());
+        assertEquals(50, tracker.getMax());
+        assertEquals(50.0, tracker.getMean());
+        assertEquals(50, tracker.getMode());
 
-        P.insert(80);
+        tracker.insert(80);
 
-        assertEquals(50, P.getMin());
-        assertEquals(80, P.getMax());
-        assertEquals(65.0, P.getMean());
-        assertEquals(50, P.getMode());
+        assertEquals(50, tracker.getMin());
+        assertEquals(80, tracker.getMax());
+        assertEquals(65.0, tracker.getMean());
+        assertEquals(50, tracker.getMode());
 
-        P.insert(80);
+        tracker.insert(80);
 
-        assertEquals(50, P.getMin());
-        assertEquals(80, P.getMax());
-        assertEquals(70.0, P.getMean());
-        assertEquals(80, P.getMode());
+        assertEquals(50, tracker.getMin());
+        assertEquals(80, tracker.getMax());
+        assertEquals(70.0, tracker.getMean());
+        assertEquals(80, tracker.getMode());
 
-        P.insert(30);
+        tracker.insert(30);
 
-        assertEquals(30, P.getMin());
-        assertEquals(80, P.getMax());
-        assertEquals(60.0, P.getMean());
-        assertEquals(80, P.getMode());
+        assertEquals(30, tracker.getMin());
+        assertEquals(80, tracker.getMax());
+        assertEquals(60.0, tracker.getMean());
+        assertEquals(80, tracker.getMode());
     }
 }
