@@ -17,13 +17,13 @@ class Problem_01 {
      */
     @Pattern(Type.BRUTE_FORCE)
     int getMaxProfit1(int[] A) {
-        int len = A.length;
-        if (len < 2) {
+        int n = A.length;
+        if (n < 2) {
             throw new RuntimeException();
         }
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < len; j++) {
+        for (int i = 0; i < n; i++) { // O(n)
+            for (int j = i + 1; j < n; j++) { // O(n)
                 max = Math.max(max, A[j] - A[i]);
             }
         }
@@ -43,12 +43,12 @@ class Problem_01 {
      */
     @Pattern(Type.GREEDY)
     int getMaxProfit2(int[] A) {
-        int len = A.length;
-        if (len < 2) {
+        int n = A.length;
+        if (n < 2) {
             throw new RuntimeException();
         }
         int minPrice = A[0], maxProfit = A[1] - A[0];
-        for (int i = 1; i < len; i++) {
+        for (int i = 1; i < n; i++) { // O(n)
             maxProfit = Math.max(maxProfit, A[i] - minPrice);
             minPrice = Math.min(minPrice, A[i]);
         }
