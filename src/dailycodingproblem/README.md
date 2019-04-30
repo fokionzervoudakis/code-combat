@@ -47,6 +47,7 @@
   - [Problem #47 [Easy]](#problem-47-easy)
   - [Problem #48 [Medium]](#problem-48-medium)
   - [Problem #49 [Medium]](#problem-49-medium)
+  - [Problem #50 [Easy]](#problem-50-easy)
 
 ## Problem #1 [Easy]
 
@@ -741,4 +742,26 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 Do this in O(N) time.
 
 [Solution](problems_041_050/Problem_049.java)
+
+## Problem #50 [Easy]
+
+This problem was asked by <u>Microsoft</u>.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+[Solution](problems_041_050/Problem_050.java)
 
