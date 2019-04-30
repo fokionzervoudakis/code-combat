@@ -14,24 +14,37 @@ class Test_01 {
     }
 
     @Test
-    void itSearchesAnEmptyArray() {
-        assertEquals(-1, P.findRotationPoint(new String[0]));
+    void itSearchesOneElement() {
+        var A = new String[] { "cake" };
+        assertEquals(1, P.findRotationPoint(A));
     }
 
     @Test
-    void itSearchesASmallArray() {
+    void itSearchesTwoElementsWithRotation() {
         var A = new String[] { "cape", "cake" };
         assertEquals(1, P.findRotationPoint(A));
     }
 
     @Test
-    void itSearchesAMediumArray() {
+    void itSearchesTwoElementsWithoutRotation() {
+        var A = new String[] { "cake", "cape" };
+        assertEquals(1, P.findRotationPoint(A));
+    }
+
+    @Test
+    void itSearchesManyElementsWithRotationInTheEnd() {
         var A = new String[] { "grape", "orange", "plum", "radish", "apple" };
         assertEquals(4, P.findRotationPoint(A));
     }
 
     @Test
-    void itSearchesALargeArray() {
+    void itSearchesManyElementsWithoutRotation() {
+        var A = new String[] { "apple", "grape", "orange", "plum", "radish" };
+        assertEquals(5, P.findRotationPoint(A));
+    }
+
+    @Test
+    void itSearchesManyElementsWithRotationInTheMiddle() {
         var A = new String[] {
                 "ptolemaic", "retrograde", "supplant", "undulate", "xenoepist",
                 "asymptote", "babka", "banoffee", "engender", "karpatka", "othellolagkage"
