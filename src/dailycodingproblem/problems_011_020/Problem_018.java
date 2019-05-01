@@ -1,44 +1,43 @@
 package dailycodingproblem.problems_011_020;
 
-import annotation.SlidingWindow;
-
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  Problem #18 [Hard] - Google
  */
-@SlidingWindow
 class Problem_018 {
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_avg=O(n) with uniformly distributed data
+     <li>time_worst=O(nk) with pathologically distributed data
+     <li>space_worst=O(k)
+     </ul>
+
+     @param A an array of integers
+     @param k a number where where {@code 1 <= k <= A.length}
+     @return the maximum values of each sub-array of length {@code k}
+     */
     List<Integer> slidingMax(int[] A, int k) {
-        var n = A.length;
-
-        var LR = new int[n];
-        var RL = new int[n];
-
-        // Scan elements in each window-sized block from left to right.
-        for (var i = 0; i < n; i++) {
-            if (i % k == 0) {
-                LR[i] = A[i]; // Start each block from its leftmost element.
-            } else {
-                LR[i] = Math.max(LR[i - 1], A[i]);
+        var L = new ArrayList<Integer>();
+        var Q = new LinkedList<Integer>();
+        for (var i = 0; i < A.length; i++) { // O(n)
+            // Remove the element that is outside the current window.
+            if ((!Q.isEmpty()) && Q.peekFirst() <= i - k) {
+                Q.removeFirst(); // O(1)
             }
-        }
-
-        // Scan elements in each window-sized block from right to left.
-        for (var i = n - 1; i >= 0; i--) {
-            if (i == n - 1) {
-                RL[i] = A[i]; // The end of the array is an edge case.
-            } else if (i % k == k - 1) {
-                RL[i] = A[i]; // Start each block from its rightmost element.
-            } else {
-                RL[i] = Math.max(RL[i + 1], A[i]);
+            // Remove elements smaller than the element currently being added.
+            while (!Q.isEmpty() && A[i] >= A[Q.peekLast()]) { // O(k)
+                Q.removeLast(); // O(1)
             }
-        }
-
-        List<Integer> L = new ArrayList<>();
-        for (var i = 0; i < n - k + 1; i++) {
-            L.add(Math.max(RL[i], LR[i + k - 1]));
+            // Add the current element to the back of the queue.
+            Q.addLast(i); // O(1)
+            if (i >= k - 1) {
+                // The max element of the last window is at the front of the queue.
+                L.add(A[Q.getFirst()]); // O(1)
+            }
         }
         return L;
     }
