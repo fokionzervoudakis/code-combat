@@ -2,6 +2,7 @@ package dailycodingproblem.problems_011_020;
 
 import annotation.PseudoRandom;
 
+import java.util.HashMap;
 import java.util.Random;
 import java.util.stream.IntStream;
 
@@ -42,10 +43,17 @@ class Problem_015 {
     }
 
     public static void main(String[] args) {
+        var max = 10000;
+        var A = IntStream.range(0, 10).toArray();
         var P = new Problem_015();
-        var A = IntStream.range(0, 100).toArray();
-        for (var i = 0; i < 10; i++) {
-            System.out.println(P.pick(A));
+        var M = new HashMap<Integer, Double>();
+        for (var i = 0; i < max; i++) {
+            var n = P.pick(A);
+            M.put(n, M.containsKey(n) ? M.get(n) + 1 : 1);
         }
+        for (var E : M.entrySet()) {
+            M.put(E.getKey(), E.getValue() / max);
+        }
+        System.out.println(M);
     }
 }

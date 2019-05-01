@@ -6,6 +6,7 @@ import annotation.PseudoRandom;
 
 import java.util.Arrays;
 import java.util.Random;
+import java.util.stream.IntStream;
 
 /**
  {@link interviewcake.section_12.Problem_03}
@@ -40,10 +41,10 @@ public class Problem_05 {
     }
 
     public static void main(String[] args) {
-        int[] A = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        Problem_05 P = new Problem_05();
-        for (int i = 0; i < 10; i++) {
-            int[] B = A.clone();
+        var A = IntStream.range(0, 10).toArray();
+        var P = new Problem_05();
+        for (var i = 0; i < 100; i++) {
+            var B = A.clone();
             P.shuffle(B);
             System.out.println(Arrays.toString(B));
         }
