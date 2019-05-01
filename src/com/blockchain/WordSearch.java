@@ -33,8 +33,7 @@ public class WordSearch {
     /**
      This solution cannot be optimized with dynamic programming because the
      recursion does not revisit overlapping sub-problems.
-     <p>
-     {@link dailycodingproblem.problems_021_030.Problem_022}
+     <p>{@link dailycodingproblem.problems_021_030.Problem_022}
      */
     public class Rec {
         @Pattern(Type.GREEDY)

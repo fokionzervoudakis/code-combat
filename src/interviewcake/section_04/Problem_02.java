@@ -1,9 +1,11 @@
 package interviewcake.section_04;
 
 /**
- {@link interviewcake.section_05.Problem_06}
- <p>
- {@link interviewcake.section_08.Problem_05}
+ Links:
+ <ul>
+ <li>{@link interviewcake.section_05.Problem_06}
+ <li>{@link interviewcake.section_08.Problem_05}
+ </ul>
  */
 public class Problem_02 {
     /**

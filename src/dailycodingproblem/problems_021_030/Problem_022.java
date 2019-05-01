@@ -7,8 +7,7 @@ import java.util.Set;
 
 /**
  Problem #22 [Medium] - Microsoft
- <p>
- {@link com.blockchain.WordSearch.Rec}
+ <p>{@link com.blockchain.WordSearch.Rec}
  */
 public class Problem_022 {
     @Pattern(Type.GREEDY)

@@ -9,7 +9,11 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 /**
- {@link interviewcake.section_12.Problem_03}
+ Links:
+ <ul>
+ <li>{@link interviewcake.section_12.Problem_03}
+ <li>{@link dailycodingproblem.problems_051_060.Problem_051}
+ </ul>
  */
 public class Problem_05 {
     private Random rand = new Random();

@@ -4,8 +4,7 @@ import annotation.Pattern;
 
 /**
  Problem #2 [Hard] - Uber
- <p>
- {@link interviewcake.section_03.Problem_03}
+ <p>{@link interviewcake.section_03.Problem_03}
  */
 public class Problem_002 {
     /**
