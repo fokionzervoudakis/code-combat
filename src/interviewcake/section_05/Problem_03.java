@@ -13,7 +13,7 @@ public class Problem_03 {
      </ul>
 
      @param n the root of a BST
-     @return the second largest value in {@code n}
+     @return the second largest value in the BST with root {@code n}
      */
     int findSecondLargest(Node n) {
         if (n == null || (n.l == null && n.r == null)) {
