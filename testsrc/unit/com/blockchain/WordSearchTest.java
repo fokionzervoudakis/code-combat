@@ -1,10 +1,10 @@
 package com.blockchain;
 
-import com.google.common.collect.ImmutableSet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,7 +23,12 @@ class WordSearchTest {
 
         @BeforeEach
         void beforeEach() {
-            dict = ImmutableSet.of("the", "quick", "brown", "fox");
+            dict = new HashSet<String>() {{
+                add("the");
+                add("quick");
+                add("brown");
+                add("fox");
+            }};
         }
 
         @Test
@@ -54,7 +59,13 @@ class WordSearchTest {
 
         @BeforeEach
         void beforeEach() {
-            dict = ImmutableSet.of("bed", "bath", "bedbath", "and", "beyond");
+            dict = new HashSet<String>() {{
+                add("bed");
+                add("bath");
+                add("bedbath");
+                add("and");
+                add("beyond");
+            }};
         }
 
         @Test

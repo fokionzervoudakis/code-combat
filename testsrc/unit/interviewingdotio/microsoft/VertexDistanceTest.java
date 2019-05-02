@@ -1,10 +1,10 @@
 package interviewingdotio.microsoft;
 
-import com.google.common.collect.ImmutableList;
 import interviewingdotio.microsoft.VertexDistance.Point;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,7 +17,12 @@ class VertexDistanceTest {
     @BeforeEach
     void beforeEach() {
         distance = new VertexDistance();
-        L = ImmutableList.of(new Point(2, 2), new Point(3, 3), new Point(4, 4), new Point(5, 5));
+        L = new ArrayList<>() {{
+            add(new Point(2, 2));
+            add(new Point(3, 3));
+            add(new Point(4, 4));
+            add(new Point(5, 5));
+        }};
         origin = new Point(1, 1);
     }
 
