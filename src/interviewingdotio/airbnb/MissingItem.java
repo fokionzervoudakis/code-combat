@@ -1,5 +1,6 @@
 package interviewingdotio.airbnb;
 
+import annotation.Bitwise;
 import annotation.Pattern;
 import annotation.Pattern.Type;
 
@@ -7,11 +8,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- https://interviewing.io/recordings/Python-Airbnb-4/
- <p>
- https://interviewing.io/recordings/C++-Airbnb-2
+ {@link interviewcake.section_11.Problem_01}
+ <p>https://interviewing.io/recordings/Python-Airbnb-4/
+ <p>https://interviewing.io/recordings/C++-Airbnb-2
  */
-class MissingItem {
+public class MissingItem {
     /**
      Asymptotic analysis:
      <ul>
@@ -60,7 +61,8 @@ class MissingItem {
      @param B another array of unique elements
      @return the element in {@code A} that is missing from {@code B}
      */
-    int optimizedWithXor(int[] A, int[] B) {
+    @Bitwise
+    public int optimizedWithXor(int[] A, int[] B) {
         var m = 0;
         // Use XOR to guarantee O(1) space for overflowing operations.
         // Note: some languages (such as Python) will automatically promote

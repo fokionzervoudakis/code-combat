@@ -6,7 +6,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-class Problem_04 {
+/**
+ {@link dailycodingproblem.problems_021_030.Problem_027}
+ */
+public class Problem_04 {
     /**
      Asymptotic analysis:
      <ul>
