@@ -18,30 +18,38 @@ public class Problem_05 {
      </ul>
 
      @param A an array of length n+1 with integers in the range [1, n]
-     @return a duplicate integer, which can be discovered by converting values in
-     {@code A} to array indices, or zero if a duplicate integer does not exist
+     @return the duplicate integer in {@code A}, or zero if a duplicate integer
+     does not exist
      */
     @Favorite
     int findDuplicate(int[] A) {
         int i = 0;
-        while (i < A.length) {
+        outer:
+        while (i < A.length) { // O(n)
             if (A[i] == -1) {
+                // If the current value is negative, ignore it when moving from left to right.
                 i++;
+            } else if (A[i] == i + 1) {
+                // If the current value is pointing to itself, mark it as visited.
+                A[i++] = -1;
             } else {
-                int j = i, curr = A[j], prev = curr;
+                int prev = A[i], j = prev - 1;
+                A[i] = -1;
                 while (true) {
-                    if (curr == -1) {
-                        if (i != j) {
-                            return prev;
+                    if (A[j] == -1) {
+                        // If the current value has been visited before,
+                        if (j == i) {
+                            // then ignore it if it's pointing to the outer loop index currently being visited,
+                            continue outer;
                         } else {
-                            break;
+                            // otherwise it's a duplicate.
+                            return prev;
                         }
                     } else {
+                        prev = A[j];
                         A[j] = -1;
-                        j = curr - 1;
+                        j = prev - 1;
                     }
-                    prev = curr;
-                    curr = A[j];
                 }
             }
         }
