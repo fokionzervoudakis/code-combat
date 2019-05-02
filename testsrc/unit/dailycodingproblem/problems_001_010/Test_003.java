@@ -5,28 +5,34 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class Test_003 {
     private Problem_003 P;
-    private Node N;
 
     @BeforeEach
     void beforeEach() {
         P = new Problem_003();
-        N = new Node("root", new Node("left", new Node("left.left"), null), new Node("right"));
     }
 
     @Test
-    void itSerializesABinaryTree() {
-        var expected = "[root[left[left.left]][right]]";
-        var actual = P.serialize(N);
+    void itSerializesAndDeserializesAnEmptyBinaryTree() {
+        assertTrue(P.serialize(P.deserialize(P.serialize(null))).isEmpty());
+    }
+
+    @Test
+    void itSerializesAndDeserializesABinaryTreeWithOneNode() {
+        var N = new Node("root");
+        var expected = "[root]";
+        var actual = P.serialize(P.deserialize(P.serialize(N)));
         assertEquals(expected, actual);
     }
 
     @Test
-    void itDeserializesASerializedBinaryTree() {
-        var expected = "root[left[left.left[null][null]][null]][right[null][null]]";
-        var actual = P.deserialize(P.serialize(N)).toString();
+    void itSerializesAndDeserializesABinaryTreeWithManyNodes() {
+        var N = new Node("root", new Node("left", new Node("left.left"), null), new Node("right"));
+        var expected = "[root[left[left.left]][right]]";
+        var actual = P.serialize(P.deserialize(P.serialize(N)));
         assertEquals(expected, actual);
     }
 }

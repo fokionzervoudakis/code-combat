@@ -10,61 +10,70 @@ import java.util.Stack;
  */
 @DataStructure(Type.TREE)
 class Problem_003 {
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_avg=O(log n)
+     <li>space_worst=O(n)
+     </ul>
+
+     @param n the root node of a binary tree
+     @return the string representation of {@code n}
+     */
     String serialize(Node n) {
         return serialize(n, "");
     }
 
-    private String serialize(Node n, String s) {
+    private String serialize(Node n, String str) {
         if (n != null) {
-            s += '[';
-            s += n.val;
-            s = serialize(n.l, s);
-            s = serialize(n.r, s);
-            s += ']';
+            str += n.val + serialize(n.l, str) + serialize(n.r, str);
         }
-        return s;
+        return str.isEmpty() ? str : '[' + str + ']';
     }
 
-    Node deserialize(String s) {
-        if (s == null || s.isEmpty()) {
-            return null;
-        }
-        var tmp = s.substring(1, s.length() - 1);
-        if (tmp.matches("^[a-z.]*$")) {
-            return new Node(tmp);
-        } else {
-            var val = tmp.substring(0, tmp.indexOf('['));
-            var children = tmp.substring(val.length());
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(n)
+     </ul>
 
-            var i = leftRightDiv(children);
-
-            var left = deserialize(children.substring(0, i + 1));
-            var right = deserialize(children.substring(i + 1));
-
-            return new Node(val, left, right);
-        }
-    }
-
-    private int leftRightDiv(String s) {
-        var stack = new Stack<Character>();
-        for (var i = 0; i < s.length(); i++) {
-            var c = s.charAt(i);
-            if (c == '[') {
-                stack.push(c);
-            } else if (c == ']') {
-                stack.pop();
-                if (stack.isEmpty()) {
-                    return i;
+     @param str a serialized binary tree
+     @return the binary tree representation of {@code str}
+     */
+    Node deserialize(String str) {
+        var S = new Stack<Node>();
+        Node N = null;
+        for (var token : tokenize(str)) { // O(n)
+            if (token.equals("]")) {
+                N = S.pop(); // O(1)
+            } else {
+                if (!token.equals("[")) {
+                    var tmp = new Node(token);
+                    if (!S.isEmpty()) {
+                        var top = S.peek(); // O(1)
+                        if (top.l == null) {
+                            top.l = tmp;
+                        } else {
+                            top.r = tmp;
+                        }
+                    }
+                    S.push(tmp); // O(1)
                 }
             }
         }
-        return -1;
+        return N;
+    }
+
+    private String[] tokenize(String str) {
+        return str.split("((?<=\\[)|(?=\\[)|(?<=])|(?=]))");
     }
 
     static class Node {
         String val;
-        Node l;
-        Node r;
+
+        Node l, r;
 
         Node(String val, Node l, Node r) {
             this.val = val;
@@ -74,11 +83,6 @@ class Problem_003 {
 
         Node(String val) {
             this(val, null, null);
-        }
-
-        @Override
-        public String toString() {
-            return val + '[' + l + ']' + '[' + r + ']';
         }
     }
 }
