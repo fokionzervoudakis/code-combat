@@ -17,7 +17,7 @@ public class Problem_05 {
 
      @param A an array of length n+1 with integers in the range [1, n]
      @return a duplicate integer, which can be discovered by converting values in
-     {@code A} to array indices
+     {@code A} to array indices, or zero if a duplicate integer does not exist
      */
     int findDuplicate(int[] A) {
         int i = 0;
@@ -25,10 +25,8 @@ public class Problem_05 {
             if (A[i] == -1) {
                 i++;
             } else {
-                int j = i, curr = A[j];
+                int j = i, curr = A[j], prev = curr;
                 while (true) {
-                    int prev = curr;
-                    curr = A[j];
                     if (curr == -1) {
                         if (i != j) {
                             return prev;
@@ -39,6 +37,8 @@ public class Problem_05 {
                         A[j] = -1;
                         j = curr - 1;
                     }
+                    prev = curr;
+                    curr = A[j];
                 }
             }
         }
