@@ -3,7 +3,10 @@ package interviewcake.section_03;
 import annotation.Pattern;
 import annotation.Pattern.Type;
 
-class Problem_01 {
+/**
+ {@link dailycodingproblem.problems_041_050.Problem_047}
+ */
+public class Problem_01 {
     /**
      Asymptotic analysis:
      <ul>
