@@ -1,5 +1,6 @@
 package dailycodingproblem.problems_001_010;
 
+import annotation.Favorite;
 import annotation.InPlace;
 
 /**
@@ -17,6 +18,7 @@ class Problem_004 {
      @return the lowest positive integer that does not exist in {@code A}
      */
     @InPlace
+    @Favorite
     int firstMissing(int[] A) {
         // Move each positive integer to its corresponding one-based index position.
         // For example: [3, 4, -1, 1] => [1, -1, 3, 4]

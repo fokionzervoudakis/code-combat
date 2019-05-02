@@ -1,5 +1,8 @@
 package dailycodingproblem.problems_031_040;
 
+import annotation.Bitwise;
+import annotation.Favorite;
+
 /**
  Problem #38 [Hard] - Google
  */
@@ -15,6 +18,8 @@ class Problem_040 {
      for one integer, which only occurs once
      @return the unique integer in {@code A}
      */
+    @Bitwise
+    @Favorite
     int getUnique(int[] A) {
         var unique = 0;
 

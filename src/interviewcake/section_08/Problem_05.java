@@ -1,5 +1,7 @@
 package interviewcake.section_08;
 
+import annotation.Favorite;
+
 /**
  Links:
  <ul>
@@ -19,6 +21,7 @@ public class Problem_05 {
      @return a duplicate integer, which can be discovered by converting values in
      {@code A} to array indices, or zero if a duplicate integer does not exist
      */
+    @Favorite
     int findDuplicate(int[] A) {
         int i = 0;
         while (i < A.length) {

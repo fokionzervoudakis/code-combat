@@ -1,8 +1,12 @@
 package interviewcake.section_11;
 
 import annotation.Bitwise;
+import annotation.Favorite;
 
-class Problem_01 {
+/**
+ {@link interviewingdotio.airbnb.MissingItem#optimizedWithXor}
+ */
+public class Problem_01 {
     /**
      Asymptotic analysis:
      <ul>
@@ -14,6 +18,7 @@ class Problem_01 {
      @return the unique integer in {@code A}
      */
     @Bitwise
+    @Favorite
     int findUniqueId(int[] A) {
         int m = 0;
         for (int n : A) {

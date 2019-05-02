@@ -1,5 +1,7 @@
 package dailycodingproblem.problems_011_020;
 
+import annotation.Favorite;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,6 +22,7 @@ class Problem_018 {
      @param k a number where where {@code 1 <= k <= A.length}
      @return the maximum values of each sub-array of length {@code k}
      */
+    @Favorite
     List<Integer> slidingMax(int[] A, int k) {
         var L = new ArrayList<Integer>();
         var Q = new LinkedList<Integer>();
