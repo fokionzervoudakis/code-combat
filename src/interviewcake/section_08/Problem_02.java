@@ -1,17 +1,25 @@
 package interviewcake.section_08;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
-@DataStructure(Type.LINKED_LIST)
 class Problem_02 {
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(1)
+     </ul>
+
+     @param hed the first node in a singly-linked list
+     @return true if the list contains a cycle, else false
+     */
     boolean containsCycle(Node hed) {
-        Node slow = hed;
-        Node fast = hed;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-            if (slow == fast) {
+        Node tail = hed;
+        int i = 0;
+        while (hed != null) {
+            hed = hed.next;
+            if (++i % 2 == 0) {
+                tail = tail.next;
+            }
+            if (hed == tail) {
                 return true;
             }
         }
