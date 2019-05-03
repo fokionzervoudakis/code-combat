@@ -1,13 +1,24 @@
 package interviewcake.section_08;
 
 class Problem_03 {
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(1)
+     </ul>
+
+     @param hed the first node in a singly-linked list
+     @return the first node of a reversed list with {@code hed} at the end of
+     that list
+     */
     Node reverseList(Node hed) {
         if (hed == null) {
             return null;
         }
         Node prev = null;
         while (hed.next != null) {
-            var tmp = hed.next;
+            Node tmp = hed.next;
             hed.next = prev;
             prev = hed;
             hed = tmp;
