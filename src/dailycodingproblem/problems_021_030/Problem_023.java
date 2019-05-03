@@ -6,7 +6,19 @@ import java.util.ArrayList;
  Problem #21 [Easy] - Google
  */
 class Problem_023 {
-    // TODO add Javadoc and test
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(V+E)
+     <li>space_worst=O(V)
+     </ul>
+
+     @param M a two dimensional boolean array
+     @param start a start coordinate
+     @param end and end coordinate
+     @return the minimum number of moves (up, down, left, and right) required to
+     reach {@code end} from {@code start} in {@code M}
+     */
     Integer shortestPath(boolean[][] M, Point start, Point end) {
         var Q = new ArrayList<Point>();
         Q.add(start);
@@ -14,7 +26,7 @@ class Problem_023 {
         int m = M.length, n = M[0].length;
         var visited = new boolean[m][n];
 
-        while (!Q.isEmpty()) {
+        while (!Q.isEmpty()) { // O(V+E)
             var p = Q.remove(0);
             if (M[p.x][p.y]) {
                 continue;
@@ -56,15 +68,5 @@ class Problem_023 {
         Point(int x, int y) {
             this(x, y, 0);
         }
-    }
-
-    public static void main(String[] args) {
-        var M = new boolean[][] {
-                { false, false, false, false },
-                { true, true, false, true },
-                { false, false, false, false },
-                { false, false, false, false }
-        };
-        System.out.println(new Problem_023().shortestPath(M, new Point(3, 0), new Point(0, 0)));
     }
 }
