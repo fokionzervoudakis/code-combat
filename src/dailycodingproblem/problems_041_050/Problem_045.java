@@ -23,7 +23,8 @@ public class Problem_045 {
     /**
      Asymptotic analysis:
      <ul>
-     <li>time_worst=O(n) where n=25/21
+     <li>time_avg=O(n) where n=25/21
+     <li>time_worst=O(infinity)
      <li>space_worst=O(1)
      </ul>
 
