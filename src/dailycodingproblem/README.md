@@ -50,6 +50,7 @@
   - [Problem #50 [Easy]](#problem-50-easy)
   - [Problem #51 [Medium]](#problem-51-medium)
   - [Problem #52 [Hard]](#problem-52-hard)
+  - [Problem #53 [Medium]](#problem-53-medium)
 
 ## Problem #1 [Easy]
 
@@ -791,4 +792,12 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 Each operation should run in O(1) time.
 
 [Solution](problems_051_060/Problem_052.java)
+
+## Problem #53 [Medium]
+
+This problem was asked by <u>Apple</u>.
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+[Solution](problems_051_060/Problem_053.java)
 

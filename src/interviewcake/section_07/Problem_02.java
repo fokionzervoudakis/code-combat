@@ -2,7 +2,10 @@ package interviewcake.section_07;
 
 import java.util.Stack;
 
-class Problem_02 {
+/**
+ {@link dailycodingproblem.problems_051_060.Problem_053}
+ */
+public class Problem_02 {
     /**
      A <em>first in, first out</em> (FIFO) data structure backed by two stacks.
      <ul>
@@ -25,11 +28,8 @@ class Problem_02 {
                 while (!in.isEmpty()) {
                     out.push(in.pop());
                 }
-                if (out.isEmpty()) {
-                    return null;
-                }
             }
-            return out.pop();
+            return out.isEmpty() ? null : out.pop();
         }
     }
 }
