@@ -7,8 +7,9 @@ import java.util.Random;
 
 /**
  Problem #45 [Easy] - Two Sigma
+ <p>{@link interviewcake.section_12.Problem_05}
  */
-class Problem_045 {
+public class Problem_045 {
     private Random R = new Random();
 
     private int[][] A = {
