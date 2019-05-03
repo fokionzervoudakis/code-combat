@@ -1,8 +1,7 @@
 package interviewingdotio.airbnb;
 
 import annotation.Bitwise;
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -24,7 +23,7 @@ public class MissingItem {
      @param B another array of unique elements
      @return the element in {@code A} that is missing from {@code B}
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     int naive(int[] A, int[] B) {
         var S = new HashSet<Integer>();
         for (var n : A) S.add(n);

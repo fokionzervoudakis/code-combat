@@ -1,5 +1,7 @@
 package interviewcake.section_04;
 
+import annotation.Bitwise;
+
 class Problem_01 {
     /**
      Asymptotic analysis:
@@ -11,6 +13,7 @@ class Problem_01 {
      @param A an alphabetically ordered array of strings that has been rotated
      @return the rotation index of {@code A}
      */
+    @Bitwise
     int findRotationPoint(String[] A) {
         int l = 0, r = A.length - 1;
         int mid = (l + r) >>> 1;

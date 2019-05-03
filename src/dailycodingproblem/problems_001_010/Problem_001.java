@@ -1,6 +1,6 @@
 package dailycodingproblem.problems_001_010;
 
-import annotation.Pattern;
+import annotation.pattern.HashTable;
 
 import java.util.HashSet;
 
@@ -19,7 +19,7 @@ class Problem_001 {
      @param k a target number
      @return true if any two numbers in {@code A} add to {@code k}, else false
      */
-    @Pattern(Pattern.Type.HASH_TABLE)
+    @HashTable
     boolean addUp(int[] A, int k) {
         var S = new HashSet<>();
         for (var n : A) { // O(n)

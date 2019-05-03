@@ -1,7 +1,6 @@
 package dailycodingproblem.problems_021_030;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -10,8 +9,8 @@ import java.util.Stack;
  Problem #27 [Easy] - Facebook
  <p>{@link interviewcake.section_07.Problem_04}
  */
-@Pattern(Type.HASH_TABLE)
 public class Problem_027 {
+    @HashTable
     boolean hasMatchingBrackets(String s) {
         var M = new HashMap<Character, Character>() {{
             put('(', ')');

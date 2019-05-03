@@ -1,16 +1,11 @@
-package annotation;
+package annotation.pattern;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)
-public @interface DataStructure {
-    Type value();
-
-    enum Type {
-        LINKED_LIST, TREE
-    }
+public @interface Greedy {
 }

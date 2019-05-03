@@ -1,7 +1,6 @@
 package interviewcake.section_03;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.InPlace;
 import annotation.PseudoRandom;
 
 import java.util.Arrays;
@@ -29,7 +28,7 @@ public class Problem_05 {
 
      @param A the input array
      */
-    @Pattern(Type.GREEDY)
+    @InPlace
     @PseudoRandom
     void shuffle(int[] A) {
         for (int i = 0; i < A.length - 1; i++) { // O(n)

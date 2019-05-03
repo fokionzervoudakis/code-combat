@@ -1,8 +1,5 @@
 package interviewcake.section_05;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
-
 /**
  {@link interviewcake.section_06.Problem_06}
  */
@@ -17,7 +14,6 @@ public class Problem_02 {
      @param n a tree node
      @return true if {@code n} is a binary search tree, else false
      */
-    @Pattern({ Type.GREEDY, Type.DIVIDE_AND_CONQUER })
     boolean isBst(Node n) {
         return isBst(n, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }

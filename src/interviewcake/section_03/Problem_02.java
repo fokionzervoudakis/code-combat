@@ -1,7 +1,6 @@
 package interviewcake.section_03;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.Greedy;
 
 class Problem_02 {
     /**
@@ -14,7 +13,7 @@ class Problem_02 {
      @param A an array of integers
      @return the max product of three integers in {@code A}
      */
-    @Pattern(Type.GREEDY)
+    @Greedy
     int highestProductOf3(int[] A) {
         if (A.length < 3) {
             throw new RuntimeException();

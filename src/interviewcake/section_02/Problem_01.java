@@ -1,7 +1,6 @@
 package interviewcake.section_02;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -18,7 +17,7 @@ class Problem_01 {
      @param n a target integer
      @return true if {@code n} is the sum of two numbers in {@code A}, else false
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     boolean canTwoMoviesFillFlight(int[] A, int n) {
         Set<Integer> S = new HashSet<>();
         for (int a : A) { // O(n)

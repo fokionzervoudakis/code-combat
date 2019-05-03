@@ -1,7 +1,6 @@
 package dailycodingproblem.problems_021_030;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.Greedy;
 
 import java.util.Set;
 
@@ -10,7 +9,7 @@ import java.util.Set;
  <p>{@link com.blockchain.WordSearch.Rec}
  */
 public class Problem_022 {
-    @Pattern(Type.GREEDY)
+    @Greedy
     String search(String in, Set<String> dict) {
         var out = "";
         var b = false;

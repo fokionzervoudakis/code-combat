@@ -1,9 +1,5 @@
 package interviewcake.section_08;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
-@DataStructure(Type.LINKED_LIST)
 class Problem_04 {
     Node kthToLastNode1(int k, Node hed) {
         if (k < 1) {

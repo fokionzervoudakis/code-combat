@@ -1,12 +1,8 @@
 package dailycodingproblem.problems_021_030;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
 /**
  Problem #24 [Medium] - Google
  */
-@DataStructure(Type.TREE)
 class Problem_024 {
     static class Node {
         Node p;

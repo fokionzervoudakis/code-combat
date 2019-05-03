@@ -1,7 +1,6 @@
 package interviewcake.section_02;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -18,7 +17,7 @@ class Problem_03 {
      @return a map that associates each word in {@code str} with the number of
      times that word has occurred
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     Map<String, Integer> countWords(String str) {
         Map<String, Integer> M = new LinkedHashMap<>(); // Order for test determinism.
         for (String word : cleanup(str).split(" ")) { // O(n)

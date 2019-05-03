@@ -1,7 +1,6 @@
 package interviewcake.section_03;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.Greedy;
 
 /**
  {@link dailycodingproblem.problems_001_010.Problem_002}
@@ -18,7 +17,7 @@ public class Problem_03 {
      @return an array where each element at index {@code i} of that array is the
      product of every number in {@code A} except the number at index {@code i}
      */
-    @Pattern(Type.GREEDY)
+    @Greedy
     int[] products(int[] A) {
         int n = A.length;
 

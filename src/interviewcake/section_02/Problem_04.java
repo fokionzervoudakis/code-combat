@@ -1,8 +1,6 @@
 package interviewcake.section_02;
 
 import annotation.NotInPlace;
-import annotation.Pattern;
-import annotation.Pattern.Type;
 
 /**
  {@link interviewcake.section_04.Problem_03}
@@ -20,7 +18,6 @@ public class Problem_04 {
      @return an array of the integers in {@code A} sorted in descending order
      */
     @NotInPlace
-    @Pattern(Type.COUNTING)
     int[] sort(int[] A, int k) {
         int[] B = new int[k];
         for (int n : A) { // O(n)

@@ -1,4 +1,4 @@
-package annotation;
+package annotation.dp;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,5 +7,5 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)
-public @interface Backtracking {
+public @interface Memoization {
 }

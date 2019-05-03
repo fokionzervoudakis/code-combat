@@ -1,7 +1,6 @@
 package interviewingdotio.amazon;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -24,7 +23,7 @@ class TopK {
      @param k the number of most frequent elements in {@code A}
      @return the {@code k} of most frequent elements in {@code A}
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     List<Integer> getToK(int[] A, int k) {
         if (k < 1) {
             return new ArrayList<>();

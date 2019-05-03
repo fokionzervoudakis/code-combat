@@ -1,7 +1,6 @@
 package dailycodingproblem.problems_011_020;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.HashMap;
 
@@ -21,7 +20,7 @@ class Problem_013 {
      @return the length of the longest substring in {@code str }that contains at
      most {@code k} distinct characters
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     int maxSub(String str, int k) {
         var M = new HashMap<Character, Integer>();
         int hed = 0, tail = 0, len = 0, max = 0;

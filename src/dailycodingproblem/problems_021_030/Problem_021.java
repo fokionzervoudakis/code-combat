@@ -1,7 +1,6 @@
 package dailycodingproblem.problems_021_030;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.HashTable;
 
 import java.util.HashMap;
 
@@ -19,7 +18,7 @@ class Problem_021 {
      @param A an array of time intervals for classroom lectures
      @return the minimum number of rooms that accommodate lectures in {@code A}
      */
-    @Pattern(Type.HASH_TABLE)
+    @HashTable
     int getMinRooms(Lecture[] A) {
         if (A.length < 2) {
             return A.length;

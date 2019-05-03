@@ -1,12 +1,9 @@
 package com.blockchain;
 
-import annotation.DynamicProgramming;
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.dp.Tabulation;
+import annotation.pattern.Greedy;
 
 import java.util.Set;
-
-import static annotation.DynamicProgramming.Type.TABULATION;
 
 public class WordSearch {
     /**
@@ -36,7 +33,7 @@ public class WordSearch {
      <p>{@link dailycodingproblem.problems_021_030.Problem_022}
      */
     public class Rec {
-        @Pattern(Type.GREEDY)
+        @Greedy
         String search(String in, Set<String> dict) {
             var out = "";
             var b = false;
@@ -60,8 +57,8 @@ public class WordSearch {
         }
     }
 
-    @DynamicProgramming(TABULATION)
     class Tab {
+        @Tabulation
         String search(String in, Set<String> dict) {
             var n = in.length();
             var A = new boolean[n + 1];

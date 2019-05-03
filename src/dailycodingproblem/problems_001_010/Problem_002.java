@@ -1,6 +1,6 @@
 package dailycodingproblem.problems_001_010;
 
-import annotation.Pattern;
+import annotation.pattern.Greedy;
 
 /**
  Problem #2 [Hard] - Uber
@@ -18,7 +18,7 @@ public class Problem_002 {
      @return an array where each element at index {@code i} of that array is the
      product of every number in {@code A} except the number at index {@code i}
      */
-    @Pattern(Pattern.Type.GREEDY)
+    @Greedy
     int[] products(int[] A) {
         var B = new int[A.length];
         B[0] = 1;

@@ -1,12 +1,8 @@
 package dailycodingproblem.problems_001_010;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
 /**
  Problem #8 [Easy] - Google
  */
-@DataStructure(Type.TREE)
 class Problem_008 {
     class It {
         int countUnival(Node n) {

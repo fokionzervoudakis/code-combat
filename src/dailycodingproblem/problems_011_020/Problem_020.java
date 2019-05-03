@@ -1,12 +1,8 @@
 package dailycodingproblem.problems_011_020;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
 /**
  Problem #20 [Easy] - Google
  */
-@DataStructure(Type.LINKED_LIST)
 class Problem_020 {
     Node intersection(Node n1, Node n2) {
         if (n1 == null || n2 == null) {

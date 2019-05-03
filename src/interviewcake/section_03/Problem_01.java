@@ -1,7 +1,7 @@
 package interviewcake.section_03;
 
-import annotation.Pattern;
-import annotation.Pattern.Type;
+import annotation.pattern.BruteForce;
+import annotation.pattern.Greedy;
 
 /**
  {@link dailycodingproblem.problems_041_050.Problem_047}
@@ -18,7 +18,7 @@ public class Problem_01 {
      @return the max profit made from one purchase and one sale of one share with
      prices in {@code A}
      */
-    @Pattern(Type.BRUTE_FORCE)
+    @BruteForce
     int getMaxProfit1(int[] A) {
         int n = A.length;
         if (n < 2) {
@@ -44,7 +44,7 @@ public class Problem_01 {
      @return the max profit made from one purchase and one sale of one share with
      prices in {@code A}
      */
-    @Pattern(Type.GREEDY)
+    @Greedy
     int getMaxProfit2(int[] A) {
         int n = A.length;
         if (n < 2) {

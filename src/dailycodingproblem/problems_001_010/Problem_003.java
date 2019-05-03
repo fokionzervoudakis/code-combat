@@ -1,14 +1,10 @@
 package dailycodingproblem.problems_001_010;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
 import java.util.Stack;
 
 /**
  Problem #3 [Medium] - Google
  */
-@DataStructure(Type.TREE)
 class Problem_003 {
     /**
      Asymptotic analysis:

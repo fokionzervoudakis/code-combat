@@ -1,6 +1,6 @@
 package interviewcake.section_01;
 
-import annotation.Pattern;
+import annotation.pattern.Greedy;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -20,7 +20,7 @@ public class Problem_01 {
      @param L1 a list of meetings
      @return a list of (merged) meetings with non-overlapping time ranges
      */
-    @Pattern(Pattern.Type.GREEDY)
+    @Greedy
     List<Meeting> mergeRanges(List<Meeting> L1) {
         L1.sort(Comparator.comparingInt(m -> m.start)); // O(n log n)
 

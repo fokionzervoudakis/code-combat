@@ -1,7 +1,7 @@
 package dailycodingproblem.problems_001_010;
 
-import annotation.DynamicProgramming;
-import annotation.DynamicProgramming.Type;
+import annotation.dp.Memoization;
+import annotation.dp.Tabulation;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -26,10 +26,10 @@ class Problem_009 {
         }
     }
 
-    @DynamicProgramming(Type.MEMOIZATION)
     class Mem {
         Map<Integer, Integer> M = new HashMap<>();
 
+        @Memoization
         int sum(int[] A) {
             return helper(0, A);
         }
@@ -55,8 +55,8 @@ class Problem_009 {
         }
     }
 
-    @DynamicProgramming(Type.TABULATION)
     class Tab {
+        @Tabulation
         int sum(int[] A) {
             var len = A.length;
             var B = new int[len];

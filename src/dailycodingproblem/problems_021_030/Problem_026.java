@@ -1,12 +1,8 @@
 package dailycodingproblem.problems_021_030;
 
-import annotation.DataStructure;
-import annotation.DataStructure.Type;
-
 /**
  Problem #26 [Medium] - Google
  */
-@DataStructure(Type.LINKED_LIST)
 class Problem_026 {
     void removeKthElement(Node n, int k) {
         var hed = n;
