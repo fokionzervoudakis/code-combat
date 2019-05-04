@@ -11,14 +11,14 @@ class Problem_029 {
      <li>space_worst=O(n)
      </ul>
 
-     @param in a string
-     @return the run-length encoding of {@code in}
+     @param str the target string
+     @return the run-length encoding of {@code str}
      */
-    String encode(String in) {
+    String encode1(String str) {
         var out = new StringBuilder();
         var curr = '\0';
         var n = 0;
-        for (var c : in.toCharArray()) { // O(n)
+        for (var c : str.toCharArray()) { // O(n)
             if (c != curr) {
                 if (n > 0) {
                     out.append((n == 1) ? curr : n + "" + curr);
@@ -33,6 +33,32 @@ class Problem_029 {
             out.append((n == 1) ? curr : n + "" + curr);
         }
         return out.toString();
+    }
+
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(n)
+     </ul>
+
+     @param str the target string
+     @return the run-length encoding of {@code str}
+     */
+    String encode2(String str) {
+        var sb = new StringBuilder();
+        for (var i = 0; i < str.length(); i++) { // O(n)
+            var n = 1;
+            while (i < str.length() - 1 && str.charAt(i) == str.charAt(i + 1)) {
+                n++;
+                i++;
+            }
+            if (n > 1) {
+                sb.append(n);
+            }
+            sb.append(str.charAt(i));
+        }
+        return sb.toString();
     }
 
     /**

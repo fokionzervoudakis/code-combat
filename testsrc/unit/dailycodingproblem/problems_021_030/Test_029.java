@@ -15,34 +15,46 @@ class Test_029 {
 
     @Test
     void itEncodesAnEmptyString() {
-        assertEquals("", P.encode(""));
+        assertEquals("", P.encode1(""));
+        assertEquals("", P.encode2(""));
     }
 
     @Test
     void itEncodesAStringWithSingleCharacters() {
-        assertEquals("XYZ", P.encode("XYZ"));
+        assertEquals("XYZ", P.encode1("XYZ"));
+        assertEquals("XYZ", P.encode2("XYZ"));
     }
 
     @Test
     void itEncodesAStringWithoutSingleCharacters() {
-        assertEquals("2A3B4C", P.encode("AABBBCCCC"));
+        assertEquals("2A3B4C", P.encode1("AABBBCCCC"));
+        assertEquals("2A3B4C", P.encode2("AABBBCCCC"));
     }
 
     @Test
-    void itEncodesAStringWithMixedCharacters() {
+    void itEncodesAStringWithMixedCharacters_1() {
         var expected = "12WB12W3B24WB";
-        var actual = P.encode("WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB");
+        var actual = P.encode1("WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB");
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void itEncodesAStringWithMixedCharacters_2() {
+        var expected = "12WB12W3B24WB";
+        var actual = P.encode2("WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB");
         assertEquals(expected, actual);
     }
 
     @Test
     void itEncodesAStringWithWhitespace() {
-        assertEquals("2 hs2q q2w2 ", P.encode("  hsqq qww  "));
+        assertEquals("2 hs2q q2w2 ", P.encode1("  hsqq qww  "));
+        assertEquals("2 hs2q q2w2 ", P.encode2("  hsqq qww  "));
     }
 
     @Test
     void itEncodesALowercaseString() {
-        assertEquals("2a3b4c", P.encode("aabbbcccc"));
+        assertEquals("2a3b4c", P.encode1("aabbbcccc"));
+        assertEquals("2a3b4c", P.encode2("aabbbcccc"));
     }
 
     @Test
@@ -80,6 +92,7 @@ class Test_029 {
     @Test
     void itEncodesAndDecodesAString() {
         var s = "zzz ZZ  zZ";
-        assertEquals(s, P.decode(P.encode(s)));
+        assertEquals(s, P.decode(P.encode1(s)));
+        assertEquals(s, P.decode(P.encode2(s)));
     }
 }
