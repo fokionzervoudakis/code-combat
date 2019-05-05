@@ -42,10 +42,10 @@ class Problem_052 {
                 remove(M.get(k));
             }
             var n = new Node<>(k, v);
-            add(n);
             M.put(k, n);
+            add(n);
             if (M.size() > len) {
-                remove(M.remove(hed.next.k));
+                remove(M.remove(tail.prev.k));
             }
         }
 
@@ -61,18 +61,17 @@ class Problem_052 {
         }
 
         private void add(Node<K, V> n) {
-            var prev = tail.prev;
-            prev.next = n;
-            tail.prev = n;
-            n.prev = prev;
-            n.next = tail;
+            var next = hed.next;
+            next.prev = n;
+            hed.next = n;
+            n.prev = hed;
+            n.next = next;
         }
 
         private void remove(Node<K, V> n) {
-            var prev = n.prev;
-            var next = n.next;
-            prev.next = next;
+            Node prev = n.prev, next = n.next;
             next.prev = prev;
+            prev.next = next;
         }
     }
 
