@@ -52,6 +52,7 @@
   - [Problem #52 [Hard]](#problem-52-hard)
   - [Problem #53 [Medium]](#problem-53-medium)
   - [Problem #54 [Hard]](#problem-54-hard)
+  - [Problem #55 [Easy]](#problem-55-easy)
 
 ## Problem #1 [Easy]
 
@@ -811,4 +812,17 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 Implement an efficient sudoku solver.
 
 [Solution](problems_051_060/Problem_054.java)
+
+## Problem #55 [Easy]
+
+This problem was asked by <u>Microsoft</u>.
+
+Implement a URL shortener with the following methods:
+
+- shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+- restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+[Solution](problems_051_060/Problem_055.java)
 
