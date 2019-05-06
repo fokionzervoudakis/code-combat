@@ -1,7 +1,7 @@
 package dailycodingproblem.problems_051_060;
 
 /**
- Problem #56 [???] - Google
+ Problem #56 [Medium] - Google
  <p>
  https://www.dailycodingproblem.com/blog/graph-coloring/
  */

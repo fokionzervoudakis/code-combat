@@ -53,6 +53,7 @@
   - [Problem #53 [Medium]](#problem-53-medium)
   - [Problem #54 [Hard]](#problem-54-hard)
   - [Problem #55 [Easy]](#problem-55-easy)
+  - [Problem #56 [Medium]](#problem-56-medium)
 
 ## Problem #1 [Easy]
 
@@ -825,4 +826,12 @@ Implement a URL shortener with the following methods:
 Hint: What if we enter the same URL twice?
 
 [Solution](problems_051_060/Problem_055.java)
+
+## Problem #56 [Medium]
+
+This problem was asked by <u>Google</u>.
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+[Solution](problems_051_060/Problem_056.java)
 
