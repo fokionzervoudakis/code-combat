@@ -19,7 +19,7 @@ class Problem_018 {
      </ul>
 
      @param A an array of integers
-     @param k a number where where {@code 1 <= k <= A.length}
+     @param k a number where {@code 1 <= k <= A.length}
      @return the maximum values of each sub-array of length {@code k}
      */
     @Favorite

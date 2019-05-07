@@ -1,5 +1,7 @@
 package dailycodingproblem.problems_021_030;
 
+import annotation.Favorite;
+
 /**
  Problem #30 [Medium] - Facebook
  */
@@ -16,6 +18,7 @@ class Problem_030 {
      @return the units of negative space on {@code A} that can be filled up
      without running off on either side
      */
+    @Favorite
     int calculateSpace(int[] A) {
         int l = 0, r = A.length - 1;
         int n = 0;
