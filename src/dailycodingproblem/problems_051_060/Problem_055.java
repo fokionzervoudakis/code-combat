@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- Problem #54 [Easy] - Microsoft
+ Problem #55 [Easy] - Microsoft
  */
 class Problem_055 {
     private Map<String, String> M = new HashMap<>();
