@@ -55,6 +55,7 @@
   - [Problem #55 [Easy]](#problem-55-easy)
   - [Problem #56 [Medium]](#problem-56-medium)
   - [Problem #57 [Medium]](#problem-57-medium)
+  - [Problem #58 [Medium]](#problem-58-medium)
 
 ## Problem #1 [Easy]
 
@@ -846,5 +847,19 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Solution](problems_051_060/Problem_057.java)
+[solution](problems_051_060/problem_057.java)
+
+## Problem #58 [Medium]
+
+This problem was asked by <u>Amazon</u>.
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
+
+[solution](problems_051_060/problem_058.java)
 
