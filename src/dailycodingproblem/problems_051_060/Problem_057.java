@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  Problem #57 [Medium] - Amazon
- <p>https://android.googlesource.com/platform/dalvik.git/+/android-4.2.2_r1/vm/native/java_lang_System.cpp
  */
 class Problem_057 {
     /**
