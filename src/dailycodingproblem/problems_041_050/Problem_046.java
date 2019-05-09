@@ -59,11 +59,9 @@ class Problem_046 {
     private boolean isPalindrome(String str) {
         int l = 0, r = str.length() - 1;
         while (l < r) { // O(n/2)
-            if (str.charAt(l) != str.charAt(r)) {
+            if (str.charAt(l++) != str.charAt(r--)) {
                 return false;
             }
-            l++;
-            r--;
         }
         return true;
     }
