@@ -2,8 +2,9 @@ package dailycodingproblem.problems_021_030;
 
 /**
  Problem #25 [Hard] - Facebook
+ <p>{@link leetcode.problems_0001_0010.Problem_0010}
  */
-class Problem_025 {
+public class Problem_025 {
     /**
      Asymptotic analysis:
      <ul>
