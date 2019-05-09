@@ -12,7 +12,7 @@ class Problem_029 {
      </ul>
 
      @param str the target string
-     @return the run-length encoding of {@code str}
+     @return the run-length encoding/compression of {@code str}
      */
     String encode1(String str) {
         var out = new StringBuilder();
@@ -43,7 +43,7 @@ class Problem_029 {
      </ul>
 
      @param str the target string
-     @return the run-length encoding of {@code str}
+     @return the run-length encoding/compression of {@code str}
      */
     String encode2(String str) {
         var sb = new StringBuilder();
@@ -69,7 +69,7 @@ class Problem_029 {
      </ul>
 
      @param in a run-length encoded string
-     @return the decoded version of {@code in}
+     @return the decoded/decompressed version of {@code in}
      */
     String decode(String in) {
         var num = new StringBuilder();
