@@ -4,8 +4,9 @@ import annotation.pattern.BruteForce;
 
 /**
  Problem #46 [Hard] - Amazon
+ <p>{@link leetcode.problems_0001_0010.Problem_0005}
  */
-class Problem_046 {
+public class Problem_046 {
     /**
      Asymptotic analysis:
      <ul>
