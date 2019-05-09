@@ -5,8 +5,11 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-class Problem_01 {
-    List<char[]> L = new ArrayList<>();
+/**
+ {@link leetcode.problems_0031_0040.Problem_0046}
+ */
+public class Problem_01 {
+    private List<char[]> L = new ArrayList<>();
 
     /**
      Asymptotic analysis:
