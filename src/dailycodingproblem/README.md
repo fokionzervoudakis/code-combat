@@ -56,6 +56,7 @@
   - [Problem #56 [Medium]](#problem-56-medium)
   - [Problem #57 [Medium]](#problem-57-medium)
   - [Problem #58 [Medium]](#problem-58-medium)
+  - [Problem #59 [Hard]](#problem-59-hard)
 
 ## Problem #1 [Easy]
 
@@ -862,4 +863,12 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 
 You can assume all the integers in the array are unique.
 
 [solution](problems_051_060/problem_058.java)
+
+## Problem #59 [Hard]
+
+This problem was asked by <u>Google</u>.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[solution](problems_051_060/problem_059.java)
 
