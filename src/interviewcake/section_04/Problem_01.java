@@ -2,7 +2,10 @@ package interviewcake.section_04;
 
 import annotation.Bitwise;
 
-class Problem_01 {
+/**
+ {@link dailycodingproblem.problems_051_060.Problem_058}
+ */
+public class Problem_01 {
     /**
      Asymptotic analysis:
      <ul>
