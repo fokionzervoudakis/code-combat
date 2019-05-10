@@ -3,7 +3,14 @@ package leetcode.problems_0001_0010;
 import java.util.HashMap;
 import java.util.Map;
 
-class Problem_0001 {
+/**
+ Links:
+ <ul>
+ <li>{@link leetcode.problems_0011_0020.Problem_0015}
+ <li>{@link leetcode.problems_0011_0020.Problem_0018}
+ </ul>
+ */
+public class Problem_0001 {
     /**
      Asymptotic analysis:
      <ul>

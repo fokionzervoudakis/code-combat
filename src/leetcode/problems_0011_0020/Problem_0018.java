@@ -6,7 +6,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-class Problem_0018 {
+/**
+ Links:
+ <ul>
+ <li>{@link leetcode.problems_0001_0010.Problem_0001}
+ <li>{@link leetcode.problems_0011_0020.Problem_0015}
+ </ul>
+ */
+public class Problem_0018 {
     /**
      Asymptotic analysis:
      <ul>

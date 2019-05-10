@@ -8,7 +8,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-class Problem_0015 {
+/**
+ Links:
+ <ul>
+ <li>{@link leetcode.problems_0001_0010.Problem_0001}
+ <li>{@link leetcode.problems_0011_0020.Problem_0018}
+ </ul>
+ */
+public class Problem_0015 {
     /**
      Asymptotic analysis:
      <ul>
