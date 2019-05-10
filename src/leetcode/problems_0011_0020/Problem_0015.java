@@ -1,6 +1,7 @@
 package leetcode.problems_0011_0020;
 
 import annotation.Favorite;
+import annotation.InPlace;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,6 +28,7 @@ public class Problem_0015 {
      @return a list of unique integer lists with three elements from {@code A}
      that sum to zero
      */
+    @InPlace
     @Favorite
     List<List<Integer>> threeSum(int[] A) {
         Set<List<Integer>> S = new HashSet<>();

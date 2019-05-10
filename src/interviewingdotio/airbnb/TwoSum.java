@@ -2,6 +2,7 @@ package interviewingdotio.airbnb;
 
 import annotation.BinarySearch;
 import annotation.Bitwise;
+import annotation.InPlace;
 import annotation.pattern.HashTable;
 
 import java.util.ArrayList;
@@ -57,6 +58,7 @@ class TwoSum {
          @return all unique pairs in {@code A} that sum up to {@code k}
          */
         @BinarySearch
+        @InPlace
         Map<Integer, Integer> getTwoSumPairs(int[] A, int k) {
             Arrays.sort(A);
             var M = new LinkedHashMap<Integer, Integer>(); // Order for test determinism

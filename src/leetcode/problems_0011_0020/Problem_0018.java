@@ -1,5 +1,7 @@
 package leetcode.problems_0011_0020;
 
+import annotation.InPlace;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -26,6 +28,7 @@ public class Problem_0018 {
      @return a list of unique integer lists with four elements from {@code A}
      that sum to {@code k}
      */
+    @InPlace
     List<List<Integer>> fourSum(int[] A, int k) {
         Set<List<Integer>> S = new HashSet<>();
         Arrays.sort(A); // O(n log n)
