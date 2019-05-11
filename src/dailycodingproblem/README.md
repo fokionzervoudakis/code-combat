@@ -58,6 +58,7 @@
   - [Problem #58 [Medium]](#problem-58-medium)
   - [Problem #59 [Hard]](#problem-59-hard)
   - [Problem #60 [Medium]](#problem-60-medium)
+  - [Problem #61 [Medium]](#problem-61-medium)
 
 ## Problem #1 [Easy]
 
@@ -884,4 +885,16 @@ For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return tru
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
 [solution](problems_051_060/problem_060.java)
+
+## Problem #61 [Medium]
+
+This problem was asked by <u>Google</u>.
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[solution](problems_061_070/problem_061.java)
 
