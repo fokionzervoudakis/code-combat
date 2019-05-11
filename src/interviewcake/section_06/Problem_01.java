@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- {@link leetcode.problems_0031_0040.Problem_0046}
+ {@link leetcode.problems_0041_0050.Problem_0046}
  */
 public class Problem_01 {
     private List<char[]> L = new ArrayList<>();

@@ -1,4 +1,4 @@
-package leetcode.problems_0031_0040;
+package leetcode.problems_0041_0050;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 public class Problem_0046 {
     private List<List<Integer>> L = new ArrayList<>();
 
-    public List<List<Integer>> permute(int[] A) {
+    List<List<Integer>> permute(int[] A) {
         helper(A, A.length);
         return L;
     }

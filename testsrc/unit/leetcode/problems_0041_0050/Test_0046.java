@@ -1,4 +1,4 @@
-package leetcode.problems_0031_0040;
+package leetcode.problems_0041_0050;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
