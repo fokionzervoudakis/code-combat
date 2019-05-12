@@ -3,11 +3,8 @@ package interviewcake.section_08;
 import annotation.Favorite;
 
 /**
- Links:
- <ul>
- <li>{@link interviewcake.section_04.Problem_02}
- <li>{@link interviewcake.section_05.Problem_06}
- </ul>
+ {@link interviewcake.section_04.Problem_02}
+ <p>{@link interviewcake.section_05.Problem_06}
  */
 public class Problem_05 {
     /**

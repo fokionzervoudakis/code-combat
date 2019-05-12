@@ -4,11 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- Links:
- <ul>
- <li>{@link leetcode.problems_0011_0020.Problem_0015}
- <li>{@link leetcode.problems_0011_0020.Problem_0018}
- </ul>
+ {@link leetcode.problems_0011_0020.Problem_0015}
+ <p>{@link leetcode.problems_0011_0020.Problem_0018}
  */
 public class Problem_0001 {
     /**

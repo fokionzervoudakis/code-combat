@@ -3,11 +3,8 @@ package interviewcake.section_04;
 import annotation.Bitwise;
 
 /**
- Links:
- <ul>
- <li>{@link interviewcake.section_05.Problem_06}
- <li>{@link interviewcake.section_08.Problem_05}
- </ul>
+ {@link interviewcake.section_05.Problem_06}
+ <p>{@link interviewcake.section_08.Problem_05}
  */
 public class Problem_02 {
     /**

@@ -4,11 +4,8 @@ import annotation.Bitwise;
 import annotation.Favorite;
 
 /**
- Links:
- <ul>
- <li>{@link interviewingdotio.airbnb.MissingItem#optimizedWithXor}
- <li>{@link leetcode.problems_0131_0140.Problem_0136}
- </ul>
+ {@link interviewingdotio.airbnb.MissingItem#optimizedWithXor}
+ <p>{@link leetcode.problems_0131_0140.Problem_0136}
  */
 public class Problem_01 {
     /**

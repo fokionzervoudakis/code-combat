@@ -7,11 +7,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- Links:
- <ul>
- <li>{@link interviewcake.section_11.Problem_01}
- <li>{@link leetcode.problems_0131_0140.Problem_0136}
- </ul>
+ {@link interviewcake.section_11.Problem_01}
+ <p>{@link leetcode.problems_0131_0140.Problem_0136}
  <p>https://interviewing.io/recordings/Python-Airbnb-4/
  <p>https://interviewing.io/recordings/C++-Airbnb-2
  */
