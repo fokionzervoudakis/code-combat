@@ -1,6 +1,6 @@
 package interviewcake.section_11;
 
-import annotation.Bitwise;
+import annotation.Bit;
 import annotation.Favorite;
 
 /**
@@ -18,7 +18,7 @@ public class Problem_01 {
      @param A an array with many duplicate integers and one unique integer
      @return the unique integer in {@code A}
      */
-    @Bitwise
+    @Bit
     @Favorite
     int findUniqueId(int[] A) {
         int m = 0;

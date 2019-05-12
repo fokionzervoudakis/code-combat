@@ -1,6 +1,6 @@
 package leetcode.problems_0461_0470;
 
-import annotation.Bitwise;
+import annotation.Bit;
 
 class Problem_0461 {
     /**
@@ -9,7 +9,7 @@ class Problem_0461 {
      @return the number of corresponding bits that are different (i.e. the
      Hamming distance) between {@code a} and {@code b}
      */
-    @Bitwise
+    @Bit
     int hammingDistance(int a, int b) {
         int c = a ^ b;
         int count = 0;

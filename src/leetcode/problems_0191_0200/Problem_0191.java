@@ -1,6 +1,6 @@
 package leetcode.problems_0191_0200;
 
-import annotation.Bitwise;
+import annotation.Bit;
 
 class Problem_0191 {
     /**
@@ -10,7 +10,7 @@ class Problem_0191 {
      @param n an unsigned integer
      @return the number of bits in {@code n}
      */
-    @Bitwise
+    @Bit
     int hammingWeight(int n) {
         int count = 0;
         for (int i = 0; i < 32; i++) {

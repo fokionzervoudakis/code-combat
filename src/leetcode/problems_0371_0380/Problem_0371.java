@@ -1,6 +1,6 @@
 package leetcode.problems_0371_0380;
 
-import annotation.Bitwise;
+import annotation.Bit;
 
 class Problem_0371 {
     /**
@@ -8,7 +8,7 @@ class Problem_0371 {
      @param b another integer
      @return the sum of {@code a} and {@code b}
      */
-    @Bitwise
+    @Bit
     int it(int a, int b) {
         while (b != 0) {
             int c = (a & b);
@@ -23,7 +23,7 @@ class Problem_0371 {
      @param b another integer
      @return the sum of {@code a} and {@code b}
      */
-    @Bitwise
+    @Bit
     int rec(int a, int b) {
         return b == 0 ? a : rec(a ^ b, (a & b) << 1);
     }

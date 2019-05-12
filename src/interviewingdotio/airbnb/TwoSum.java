@@ -1,7 +1,7 @@
 package interviewingdotio.airbnb;
 
 import annotation.BinarySearch;
-import annotation.Bitwise;
+import annotation.Bit;
 import annotation.InPlace;
 import annotation.pattern.HashTable;
 
@@ -72,7 +72,7 @@ class TwoSum {
             return M;
         }
 
-        @Bitwise
+        @Bit
         private boolean contains(int[] A, int n) {
             int l = 0, r = A.length - 1;
             while (r >= l) {

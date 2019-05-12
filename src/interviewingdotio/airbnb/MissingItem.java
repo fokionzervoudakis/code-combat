@@ -1,6 +1,6 @@
 package interviewingdotio.airbnb;
 
-import annotation.Bitwise;
+import annotation.Bit;
 import annotation.pattern.HashTable;
 
 import java.util.ArrayList;
@@ -61,7 +61,7 @@ public class MissingItem {
      @param B another array of unique elements
      @return the element in {@code A} that is missing from {@code B}
      */
-    @Bitwise
+    @Bit
     public int optimizedWithXor(int[] A, int[] B) {
         var m = 0;
         // Use XOR to guarantee O(1) space for overflowing operations.

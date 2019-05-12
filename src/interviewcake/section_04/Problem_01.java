@@ -1,6 +1,6 @@
 package interviewcake.section_04;
 
-import annotation.Bitwise;
+import annotation.Bit;
 
 /**
  {@link dailycodingproblem.problems_051_060.Problem_058}
@@ -16,7 +16,7 @@ public class Problem_01 {
      @param A an alphabetically ordered array of strings that has been rotated
      @return the rotation index of {@code A}
      */
-    @Bitwise
+    @Bit
     int findRotationPoint(String[] A) {
         int l = 0, r = A.length - 1;
         int mid = (l + r) >>> 1;

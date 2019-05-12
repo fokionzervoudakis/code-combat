@@ -1,6 +1,6 @@
 package interviewcake.section_04;
 
-import annotation.Bitwise;
+import annotation.Bit;
 
 /**
  {@link interviewcake.section_05.Problem_06}
@@ -18,7 +18,7 @@ public class Problem_02 {
      integers in the range [1, n]
      @return a duplicate integer in {@code A}
      */
-    @Bitwise
+    @Bit
     int findRepeat(int[] A) {
         int l = 1, r = A.length - 1;
         while (l < r) { // O (log n)
