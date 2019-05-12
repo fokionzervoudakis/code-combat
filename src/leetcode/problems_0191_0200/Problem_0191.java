@@ -4,8 +4,8 @@ import annotation.Bitwise;
 
 class Problem_0191 {
     /**
-     Uses left shifts to count the number of set bits in {@code n} (also known as
-     the Hamming weight).
+     Uses left shifts to count the number of set bits (also known as the Hamming
+     weight) in an unsigned integer.
 
      @param n an unsigned integer
      @return the number of bits in {@code n}
