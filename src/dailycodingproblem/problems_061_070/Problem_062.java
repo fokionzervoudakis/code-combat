@@ -5,8 +5,9 @@ import java.util.Map;
 
 /**
  Problem #62 [Medium] - Facebook
+ <p>{@link leetcode.problems_0161_0170.Problem_0062}
  */
-class Problem_062 {
+public class Problem_062 {
     class Rec {
         /**
          Asymptotic analysis:
