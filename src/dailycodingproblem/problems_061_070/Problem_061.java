@@ -1,5 +1,7 @@
 package dailycodingproblem.problems_061_070;
 
+import annotation.Math;
+
 /**
  Problem #61 [Medium] - Google
  */
@@ -15,6 +17,7 @@ class Problem_061 {
      @param b the exponent
      @return the value of {@code a}^{@code b}
      */
+    @Math
     int power(int a, int b) {
         if (b == 0) {
             return 1;
