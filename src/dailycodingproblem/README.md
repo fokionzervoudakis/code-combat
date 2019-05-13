@@ -60,6 +60,7 @@
   - [Problem #60 [Medium]](#problem-60-medium)
   - [Problem #61 [Medium]](#problem-61-medium)
   - [Problem #62 [Medium]](#problem-62-medium)
+  - [Problem #63 [Easy]](#problem-63-easy)
 
 ## Problem #1 [Easy]
 
@@ -913,4 +914,23 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [solution](problems_061_070/problem_062.java)
+
+## Problem #63 [Easy]
+
+This problem was asked by <u>Microsoft</u>.
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+
+```
+[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]
+```
+
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[solution](problems_061_070/problem_063.java)
 
