@@ -5,8 +5,9 @@ import java.util.List;
 
 /**
  Problem #37 [Easy] - Google
+ <p>{@link leetcode.problems_0071_0080.Problem_0078}
  */
-class Problem_037 {
+public class Problem_037 {
     List<List<Integer>> L = new ArrayList<>();
 
     List<List<Integer>> generate(int[] A) {
