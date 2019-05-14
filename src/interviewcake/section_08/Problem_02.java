@@ -2,7 +2,8 @@ package interviewcake.section_08;
 
 class Problem_02 {
     /**
-     Asymptotic analysis:
+     Implements a variation of Floyd's cycle-finding algorithm.
+     <p>Asymptotic analysis:
      <ul>
      <li>time_worst=O(n)
      <li>space_worst=O(1)
