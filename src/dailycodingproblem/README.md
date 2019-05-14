@@ -61,6 +61,7 @@
   - [Problem #61 [Medium]](#problem-61-medium)
   - [Problem #62 [Medium]](#problem-62-medium)
   - [Problem #63 [Easy]](#problem-63-easy)
+  - [Problem #64 [Hard]](#problem-64-hard)
 
 ## Problem #1 [Easy]
 
@@ -933,4 +934,14 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
 [solution](problems_061_070/problem_063.java)
+
+## Problem #64 [Hard]
+
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+[solution](problems_061_070/problem_064.java)
 
