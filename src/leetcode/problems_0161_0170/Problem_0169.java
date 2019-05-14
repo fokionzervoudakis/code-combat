@@ -1,5 +1,7 @@
 package leetcode.problems_0161_0170;
 
+import annotation.Favorite;
+
 class Problem_0169 {
     /**
      Uses the Boyer-Moore majority vote algorithm to find the majority element in
@@ -14,6 +16,7 @@ class Problem_0169 {
      element that appears more than {@code n/2} times
      @return the majority element of {@code A}
      */
+    @Favorite
     int majorityElement(int[] A) {
         int i = 0;
         Integer m = null;
