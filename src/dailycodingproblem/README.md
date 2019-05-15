@@ -62,6 +62,7 @@
   - [Problem #62 [Medium]](#problem-62-medium)
   - [Problem #63 [Easy]](#problem-63-easy)
   - [Problem #64 [Hard]](#problem-64-hard)
+  - [Problem #65 [Easy]](#problem-65-easy)
 
 ## Problem #1 [Easy]
 
@@ -944,4 +945,46 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
 [solution](problems_061_070/problem_064.java)
+
+## Problem #65 [Easy]
+
+This problem was asked by <u>Amazon</u>.
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+
+```
+[[1,  2,  3,  4,  5],
+ [6,  7,  8,  9,  10],
+ [11, 12, 13, 14, 15],
+ [16, 17, 18, 19, 20]]
+```
+
+You should print out the following:
+
+```
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+```
+
+[solution](problems_061_070/problem_065.java)
 
