@@ -63,6 +63,7 @@
   - [Problem #63 [Easy]](#problem-63-easy)
   - [Problem #64 [Hard]](#problem-64-hard)
   - [Problem #65 [Easy]](#problem-65-easy)
+  - [Problem #66 [Medium]](#problem-66-medium)
 
 ## Problem #1 [Easy]
 
@@ -987,4 +988,14 @@ You should print out the following:
 ```
 
 [solution](problems_061_070/problem_065.java)
+
+## Problem #66 [Medium]
+
+This problem was asked by <u>Square</u>.
+
+Assume you have access to a function ```toss_biased()``` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
+
+[solution](problems_061_070/problem_066.java)
 
