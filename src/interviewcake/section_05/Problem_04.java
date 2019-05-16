@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Problem_04 {
+class Problem_04 {
     /**
      Asymptotic analysis:
      <ul>
