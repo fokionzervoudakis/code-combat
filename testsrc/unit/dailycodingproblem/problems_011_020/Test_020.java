@@ -17,14 +17,14 @@ class Test_020 {
 
     @Test
     void itReturnsNullWhenOneOfTheListsIsNull() {
-        assertNull(P.intersection(null, null));
-        assertNull(P.intersection(null, new Node(0)));
-        assertNull(P.intersection(new Node(0), null));
+        assertNull(P.getIntersection(null, null));
+        assertNull(P.getIntersection(null, new Node(0)));
+        assertNull(P.getIntersection(new Node(0), null));
     }
 
     @Test
     void itReturnsNullWhenTheListsDoNotIntersect() {
-        assertNull(P.intersection(new Node(0), new Node(1)));
+        assertNull(P.getIntersection(new Node(0), new Node(1)));
     }
 
     @Test
@@ -44,6 +44,6 @@ class Test_020 {
         B1.next = B2;
         B2.next = A3;
 
-        assertEquals(A3, P.intersection(A1, B1));
+        assertEquals(A3, P.getIntersection(A1, B1));
     }
 }

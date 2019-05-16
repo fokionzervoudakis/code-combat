@@ -4,47 +4,53 @@ package dailycodingproblem.problems_011_020;
  Problem #20 [Easy] - Google
  */
 class Problem_020 {
-    Node intersection(Node n1, Node n2) {
-        if (n1 == null || n2 == null) {
-            return null;
-        }
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(m+n)
+     <li>space_worst=O(1)
+     </ul>
 
-        var len1 = getLength(n1);
-        var len2 = getLength(n2);
+     @param A a node in a linked list
+     @param B a node in a second linked list
+     @return the intersecting node in the linked lists containing {@code A} and
+     {@code B}, or null if the lists do not intersect
+     */
+    Node getIntersection(Node A, Node B) {
+        if (A == null || B == null) return null;
 
-        Node tmp1, tmp2;
+        int a = 0, b = 0;
 
-        if (len1 > len2) {
-            tmp1 = n1;
-            tmp2 = n2;
-        } else {
-            tmp1 = n2;
-            tmp2 = n1;
-        }
+        Node A2 = A, B2 = B;
 
-        for (int i = 0; i < Math.abs(len1 - len2); i++) {
-            tmp1 = tmp1.next;
-        }
+        while ((A2 = A2.next) != null) a++; // O(m)
+        while ((B2 = B2.next) != null) b++; // O(n)
 
-        while (tmp1 != null && tmp2 != null) {
-            if (tmp1 == tmp2) {
-                return tmp1;
-            } else {
-                tmp1 = tmp1.next;
-                tmp2 = tmp2.next;
+        int i = 0;
+
+        A2 = A;
+        B2 = B;
+
+        if (a > b) {
+            while (i++ < b) {
+                B2 = B2.next;
+            }
+        } else if (b > a) {
+            while (i++ < a) {
+                A2 = A2.next;
             }
         }
 
-        return null;
-    }
-
-    private int getLength(Node n) {
-        var i = 0;
-        while (n.next != null) {
-            n = n.next;
-            i++;
+        while (A2 != null && B2 != null) {
+            if (A2 == B2) {
+                break;
+            } else {
+                A2 = A2.next;
+                B2 = B2.next;
+            }
         }
-        return i;
+
+        return A2;
     }
 
     static class Node {
