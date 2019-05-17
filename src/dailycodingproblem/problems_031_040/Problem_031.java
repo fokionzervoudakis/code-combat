@@ -2,8 +2,9 @@ package dailycodingproblem.problems_031_040;
 
 /**
  Problem #31 [Easy] - Google
+ <p>{@link leetcode.problems_0071_0080.Problem_0072}
  */
-class Problem_031 {
+public class Problem_031 {
     /**
      Asymptotic analysis:
      <ul>
