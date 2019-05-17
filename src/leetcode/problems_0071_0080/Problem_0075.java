@@ -1,6 +1,7 @@
 package leetcode.problems_0071_0080;
 
 import annotation.InPlace;
+import annotation.OnePass;
 
 class Problem_0075 {
     /**
@@ -14,6 +15,7 @@ class Problem_0075 {
      */
     // TODO test
     @InPlace
+    @OnePass
     void sortColors(int[] A) {
         int n0 = 0, n1 = 0, n2 = 0;
         for (int i = 0; i < A.length; i++) { // O(n)

@@ -1,9 +1,12 @@
 package dailycodingproblem.problems_021_030;
 
+import annotation.OnePass;
+
 /**
  Problem #26 [Medium] - Google
  */
 class Problem_026 {
+    @OnePass
     void removeKthElement(Node n, int k) {
         var hed = n;
         var i = 0;

@@ -1,5 +1,7 @@
 package csdojo;
 
+import annotation.Favorite;
+
 class ClosestPair {
     /**
      Asymptotic analysis:
@@ -14,6 +16,7 @@ class ClosestPair {
      @return two integers (one from {@code A} and one from {@code B}) whose sum
      is closest to {@code k}
      */
+    @Favorite
     int[] getClosest(int[] A, int[] B, int k) {
         int gMin = Integer.MAX_VALUE;
 
@@ -22,7 +25,7 @@ class ClosestPair {
 
         while (i < A.length && j >= 0) { // O(n)
             int diff = A[i] + B[j] - k, lMin = Math.abs(diff);
-            if (lMin < gMin) {
+            if (gMin > lMin) {
                 gMin = lMin;
                 m = A[i];
                 n = B[j];

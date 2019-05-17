@@ -1,5 +1,6 @@
 package dailycodingproblem.problems_001_010;
 
+import annotation.OnePass;
 import annotation.pattern.HashTable;
 
 import java.util.HashSet;
@@ -20,6 +21,7 @@ class Problem_001 {
      @return true if any two numbers in {@code A} add to {@code k}, else false
      */
     @HashTable
+    @OnePass
     boolean addUp(int[] A, int k) {
         var S = new HashSet<>();
         for (var n : A) { // O(n)
