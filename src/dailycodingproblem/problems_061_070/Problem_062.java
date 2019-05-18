@@ -1,13 +1,11 @@
 package dailycodingproblem.problems_061_070;
 
-import leetcode.problems_0061_0070.Problem_0062;
-
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  Problem #62 [Medium] - Facebook
- <p>{@link Problem_0062}
+ <p>{@link leetcode.problems_0061_0070.Problem_0062}
  */
 public class Problem_062 {
     class Rec {
