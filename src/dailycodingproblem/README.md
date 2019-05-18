@@ -64,6 +64,7 @@
   - [Problem #64 [Hard]](#problem-64-hard)
   - [Problem #65 [Easy]](#problem-65-easy)
   - [Problem #66 [Medium]](#problem-66-medium)
+  - [Problem #67 [Hard]](#problem-67-hard)
 
 ## Problem #1 [Easy]
 
@@ -998,4 +999,17 @@ Assume you have access to a function ```toss_biased()``` which returns 0 or 1 wi
 Write a function to simulate an unbiased coin toss.
 
 [solution](problems_061_070/problem_066.java)
+
+## Problem #67 [Hard]
+
+This problem was asked by <u>Google</u>.
+
+Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size ```n```, and contain the following methods:
+
+- ```set(key, value)```: sets ```key``` to ```value```. If there are already ```n``` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+- ```get(key)```: gets the value at ```key```. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+[solution](problems_061_070/problem_067.java)
 

@@ -5,8 +5,9 @@ import java.util.Map;
 
 /**
  Problem #52 [Hard] - Google
+ <p>{@link dailycodingproblem.problems_061_070.Problem_067}
  */
-class Problem_052 {
+public class Problem_052 {
     /**
      Asymptotic analysis:
      <ul>
