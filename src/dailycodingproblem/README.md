@@ -66,6 +66,7 @@
   - [Problem #66 [Medium]](#problem-66-medium)
   - [Problem #67 [Hard]](#problem-67-hard)
   - [Problem #68 [Medium]](#problem-68-medium)
+  - [Problem #69 [Easy]](#problem-69-easy)
 
 ## Problem #1 [Easy]
 
@@ -1042,4 +1043,16 @@ The board would look like this:
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
 [solution](problems_061_070/problem_068.java)
+
+## Problem #69 [Easy]
+
+This problem was asked by <u>Facebook</u>.
+
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is ```[-10, -10, 5, 2]```, we should return ```500```, since that's ```-10 * -10 * 5```.
+
+You can assume the list has at least three integers.
+
+[solution](problems_061_070/problem_069.java)
 

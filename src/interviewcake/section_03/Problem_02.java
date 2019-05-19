@@ -2,7 +2,10 @@ package interviewcake.section_03;
 
 import annotation.pattern.Greedy;
 
-class Problem_02 {
+/**
+ {@link dailycodingproblem.problems_061_070.Problem_069}
+ */
+public class Problem_02 {
     /**
      Asymptotic analysis:
      <ul>
