@@ -67,6 +67,7 @@
   - [Problem #67 [Hard]](#problem-67-hard)
   - [Problem #68 [Medium]](#problem-68-medium)
   - [Problem #69 [Easy]](#problem-69-easy)
+  - [Problem #70 [Easy]](#problem-70-easy)
 
 ## Problem #1 [Easy]
 
@@ -1055,4 +1056,16 @@ For example, if the list is ```[-10, -10, 5, 2]```, we should return ```500```, 
 You can assume the list has at least three integers.
 
 [solution](problems_061_070/problem_069.java)
+
+## Problem #70 [Easy]
+
+This problem was asked by <u>Microsoft</u>.
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer ```n```, return the ```n```-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
+[solution](problems_061_070/problem_070.java)
 
