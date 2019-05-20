@@ -13,7 +13,6 @@ class Problem_0075 {
 
      @param A an array with {@code n} integers with values 0, 1 and 2
      */
-    // TODO test
     @InPlace
     @OnePass
     void sortColors(int[] A) {

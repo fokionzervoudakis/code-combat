@@ -14,7 +14,6 @@ class Problem_0242 {
      @param s2 another string
      @return true if {@code s1} and {@code s2} are anagrams, else false
      */
-    // TODO test
     boolean isAnagram(String s1, String s2) {
         if (s1.length() != s2.length()) {
             return false;
