@@ -3,7 +3,7 @@ package dailycodingproblem.problems_021_030;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test_029 {
     private Problem_029 P;
