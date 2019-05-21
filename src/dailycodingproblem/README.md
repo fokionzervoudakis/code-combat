@@ -68,6 +68,7 @@
   - [Problem #68 [Medium]](#problem-68-medium)
   - [Problem #69 [Easy]](#problem-69-easy)
   - [Problem #70 [Easy]](#problem-70-easy)
+  - [Problem #71 [Easy]](#problem-71-easy)
 
 ## Problem #1 [Easy]
 
@@ -1068,4 +1069,12 @@ Given a positive integer ```n```, return the ```n```-th perfect number.
 For example, given 1, you should return 19. Given 2, you should return 28.
 
 [solution](problems_061_070/problem_070.java)
+
+## Problem #71 [Easy]
+
+This problem was asked by <u>Two Sigma</u>.
+
+Using a function ```rand7()``` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function ```rand5()``` that returns an integer from 1 to 5 (inclusive).
+
+[solution](problems_071_080/problem_071.java)
 

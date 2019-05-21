@@ -5,7 +5,10 @@ import annotation.PseudoRandom;
 import java.util.HashMap;
 import java.util.Random;
 
-class Problem_04 {
+/**
+ {@link dailycodingproblem.problems_071_080.Problem_071}
+ */
+public class Problem_04 {
     private Random R = new Random();
 
     /**
@@ -28,7 +31,7 @@ class Problem_04 {
     }
 
     private int rand7() {
-        int min = 1, max = 5;
+        int min = 1, max = 7;
         return R.nextInt((max - min) + 1) + min;
     }
 
