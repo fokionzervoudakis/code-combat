@@ -15,7 +15,7 @@ class Test_055 {
 
     @Test
     void itShortensAUrl() {
-        var expected = "http://example.com/YWNiZD";
+        var expected = "http://example.com/rL0Y20";
         var actual = P.shorten("foo");
         assertEquals(expected, actual);
     }

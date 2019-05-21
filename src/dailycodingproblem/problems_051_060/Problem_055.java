@@ -15,8 +15,8 @@ class Problem_055 {
     private String prefix = "http://example.com/";
 
     String shorten(String str) {
-        var md5 = DigestUtils.md5Hex(str);
-        var base64 = Base64.getEncoder().encodeToString(md5.getBytes()).substring(0, 6);
+        var md5 = DigestUtils.md5(str);
+        var base64 = Base64.getEncoder().encodeToString(md5).substring(0, 6);
         M.put(base64, str);
         return prefix + base64;
     }
