@@ -9,7 +9,7 @@ import java.util.Set;
  Problem #67 [Hard] - Google
  <p>{@link dailycodingproblem.problems_051_060.Problem_052}
  */
- // TODO test
+// TODO test
 public class Problem_067 {
     /**
      Asymptotic analysis:
@@ -32,27 +32,35 @@ public class Problem_067 {
 
         private FreqNode<K> hed = new FreqNode<>(-1);
 
-        private int len;
-
-        Lfu(int len) {
-            this.len = len;
-        }
-
         void set(K k, V v) {
             if (M.containsKey(k)) {
                 return;
             }
             var lfu = hed.next;
-            if (lfu.val != 1) {
+            if (lfu.value != 1) {
                 lfu = new FreqNode<>(1);
                 add(lfu);
             }
-            lfu.S.add(k);
+            lfu.items.add(k);
             M.put(k, new Node<>(v, lfu));
         }
 
         V get(K k) {
-            return null; // TODO
+            if (!M.containsKey(k)) {
+                return null;
+            }
+            var node = M.get(k);
+            FreqNode<K> parent = node.parent, next = parent.next;
+            if (next.value != parent.value + 1) {
+                // TODO next_freq <- GET-NEW-NODE(freq.value + 1, freq, next_freq)
+            }
+            next.items.add(k);
+            node.parent = next;
+            parent.items.remove(k);
+            if (parent.items.isEmpty()) {
+                remove(parent);
+            }
+            return node.v;
         }
 
         private void add(FreqNode<K> n) {
@@ -71,24 +79,25 @@ public class Problem_067 {
     }
 
     class FreqNode<K> {
-        int val;
+        int value;
 
-        Set<K> S = new LinkedHashSet<>(); // Order for determinism.
+        Set<K> items = new LinkedHashSet<>(); // Order for determinism.
 
         FreqNode<K> prev, next;
 
-        FreqNode(int val) {
-            this.val = val;
+        FreqNode(int value) {
+            this.value = value;
         }
     }
 
     class Node<K, V> {
         V v;
 
-        FreqNode<K> p;
+        FreqNode<K> parent;
 
-        Node(V v, FreqNode<K> p) {
+        Node(V v, FreqNode<K> parent) {
             this.v = v;
+            this.parent = parent;
         }
     }
 }
