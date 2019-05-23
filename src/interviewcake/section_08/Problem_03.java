@@ -1,6 +1,9 @@
 package interviewcake.section_08;
 
-class Problem_03 {
+/**
+ {@link dailycodingproblem.problems_071_080.Problem_073}
+ */
+public class Problem_03 {
     /**
      Asymptotic analysis:
      <ul>

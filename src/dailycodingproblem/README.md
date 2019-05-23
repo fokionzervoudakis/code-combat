@@ -70,6 +70,7 @@
   - [Problem #70 [Easy]](#problem-70-easy)
   - [Problem #71 [Easy]](#problem-71-easy)
   - [Problem #72 [Hard]](#problem-72-hard)
+  - [Problem #73 [Easy]](#problem-73-easy)
 
 ## Problem #1 [Easy]
 
@@ -1117,4 +1118,12 @@ A
 Should return null, since we have an infinite loop.
 
 [solution](problems_071_080/problem_072.java)
+
+## Problem #73 [Easy]
+
+This problem was asked by <u>Google</u>.
+
+Given the head of a singly linked list, reverse it in-place.
+
+[solution](problems_071_080/problem_073.java)
 
