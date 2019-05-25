@@ -17,7 +17,7 @@ class Problem_013 {
 
      @param str a string
      @param k a number
-     @return the length of the longest substring in {@code str }that contains at
+     @return the length of the longest substring in {@code str} that contains at
      most {@code k} distinct characters
      */
     @HashTable
