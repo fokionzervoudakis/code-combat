@@ -1,13 +1,16 @@
 package dailycodingproblem.problems_071_080;
 
+import java.util.Arrays;
+
 /**
  Problem #75 [Hard] - Microsoft
+ <p>{@link leetcode.problems_0300_0310.Problem_0300}
  */
-class Problem_075 {
+public class Problem_075 {
     /**
      Asymptotic analysis:
      <ul>
-     <li>time_worst=O(2^n)
+     <li>time_worst=O(n log n)
      <li>space_worst=O(n)
      </ul>
 
@@ -15,16 +18,18 @@ class Problem_075 {
      @return the length of the longest increasing sub-sequence in {@code A}
      */
     int lis(int[] A) {
-        return helper(A, 0, Integer.MIN_VALUE);
-    }
-
-    private int helper(int[] A, int i, int prev) {
-        if (i == A.length) {
-            return 0;
-        } else {
-            int a = helper(A, i + 1, prev);
-            int b = (A[i] > prev) ? helper(A, i + 1, A[i]) + 1 : 0;
-            return Math.max(a, b);
+        int[] B = new int[A.length];
+        int len = 0;
+        for (int n : A) {
+            int i = Arrays.binarySearch(B, 0, len, n);
+            if (i < 0) {
+                i = -(i + 1);
+            }
+            B[i] = n;
+            if (i == len) {
+                len++;
+            }
         }
+        return len;
     }
 }
