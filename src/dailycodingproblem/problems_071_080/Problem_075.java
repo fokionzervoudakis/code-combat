@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  Problem #75 [Hard] - Microsoft
+ <p>https://www.dailycodingproblem.com/blog/longest-increasing-subsequence/
  <p>{@link leetcode.problems_0300_0310.Problem_0300}
  */
 public class Problem_075 {

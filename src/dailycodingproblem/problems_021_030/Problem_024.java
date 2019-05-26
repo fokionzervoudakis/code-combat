@@ -2,6 +2,7 @@ package dailycodingproblem.problems_021_030;
 
 /**
  Problem #24 [Medium] - Google
+ <p>https://www.dailycodingproblem.com/blog/lockable-binary-trees/
  */
 class Problem_024 {
     static class Node {

@@ -8,8 +8,7 @@ import java.util.stream.IntStream;
 
 /**
  Problem #15 [Medium] - Facebook
- <p>
- https://www.dailycodingproblem.com/blog/how-to-pick-a-random-element-from-an-infinite-stream/
+ <p>https://www.dailycodingproblem.com/blog/how-to-pick-a-random-element-from-an-infinite-stream/
  */
 class Problem_015 {
     private Random R = new Random();
