@@ -1,5 +1,8 @@
 package dailycodingproblem.problems_031_040;
 
+import annotation.Favorite;
+import annotation.Reduction;
+
 /**
  Problem #32 [Hard] - Jane Street
  <p>
@@ -17,6 +20,8 @@ class Problem_032 {
      @return true if a sequence of trades starting with some amount A of any
      currency can yield some amount greater than A for that currency, else false
      */
+    @Favorite
+    @Reduction
     boolean arbitrage(double[][] M) {
         int m = M.length, n = M[0].length;
 
