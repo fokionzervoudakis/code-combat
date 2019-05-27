@@ -74,6 +74,7 @@
   - [Problem #74 [Medium]](#problem-74-medium)
   - [Problem #75 [Hard]](#problem-75-hard)
   - [Problem #76 [Medium]](#problem-76-medium)
+  - [Problem #77 [Easy]](#problem-77-easy)
 
 ## Problem #1 [Easy]
 
@@ -1206,4 +1207,16 @@ tsr
 Your function should return 3, since we would need to remove all the columns to order it.
 
 [solution](problems_071_080/problem_076.java)
+
+## Problem #77 [Easy]
+
+This problem was asked by <u>Snapchat</u>.
+
+Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+
+The input list is not necessarily ordered in any way.
+
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+
+[solution](problems_071_080/problem_077.java)
 
