@@ -3,7 +3,16 @@ package leetcode.problems_0541_0550;
 class Problem_0543 {
     private int d = 0;
 
-    // TODO test
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(n)
+     </ul>
+
+     @param N the root of a tree
+     @return the diameter of the tree with root {@code N}
+     */
     int diameter(Node N) {
         if (N == null) {
             return 0;
