@@ -75,6 +75,7 @@
   - [Problem #75 [Hard]](#problem-75-hard)
   - [Problem #76 [Medium]](#problem-76-medium)
   - [Problem #77 [Easy]](#problem-77-easy)
+  - [Problem #78 [Medium]](#problem-78-medium)
 
 ## Problem #1 [Easy]
 
@@ -1219,4 +1220,12 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
 
 [solution](problems_071_080/problem_077.java)
+
+## Problem #78 [Medium]
+
+This problem was asked by <u>Google</u>.
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+[solution](problems_071_080/problem_078.java)
 
