@@ -33,24 +33,4 @@ class Test_009 {
             assertEquals(10, M.sum(new int[] { 5, 1, 1, 5 }));
         }
     }
-
-    @Nested
-    class WhenItUsesTabulation {
-        private Problem_009.Tab T;
-
-        @BeforeEach
-        void beforeEach() {
-            T = new Problem_009().new Tab();
-        }
-
-        @Test
-        void itCalculatesTheSumOfNonAdjacentNumbers_1() {
-            assertEquals(13, T.sum(new int[] { 2, 4, 6, 2, 5 }));
-        }
-
-        @Test
-        void itCalculatesTheSumOfNonAdjacentNumbers_2() {
-            assertEquals(10, T.sum(new int[] { 5, 1, 1, 5 }));
-        }
-    }
 }

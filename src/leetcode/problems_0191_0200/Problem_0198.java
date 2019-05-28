@@ -5,7 +5,10 @@ import annotation.dp.Memoization;
 import java.util.HashMap;
 import java.util.Map;
 
-class Problem_0198 {
+/**
+ {@link dailycodingproblem.problems_001_010.Problem_009}
+ */
+public class Problem_0198 {
     Map<Integer, Integer> M = new HashMap<>();
 
     /**

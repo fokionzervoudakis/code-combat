@@ -1,28 +1,30 @@
 package dailycodingproblem.problems_001_010;
 
 import annotation.dp.Memoization;
-import annotation.dp.Tabulation;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  Problem #9 [Hard] - Airbnb
+ <p>{@link leetcode.problems_0191_0200.Problem_0198}
  */
-class Problem_009 {
+public class Problem_009 {
     class Rec {
         int sum(int[] A) {
-            return helper(0, A);
+            return helper(A, 0);
         }
 
-        int helper(int n, int[] A) {
-            var len = A.length;
-            if (len == 1) return n + A[0];
-            if (len == 2) return n + Math.max(A[0], A[1]);
-            var A1 = Arrays.copyOfRange(A, 2, len);
-            var A2 = Arrays.copyOfRange(A, 1, len);
-            return n + Math.max(helper(A[0], A1), helper(0, A2));
+        private int helper(int[] A, int i) {
+            if (i == A.length) {
+                return 0;
+            } else if (i == A.length - 1) {
+                return A[i];
+            } else {
+                var a = helper(A, i + 1);
+                var b = helper(A, i + 2) + A[i];
+                return Math.max(a, b);
+            }
         }
     }
 
@@ -31,48 +33,30 @@ class Problem_009 {
 
         @Memoization
         int sum(int[] A) {
-            return helper(0, A);
+            return helper(A, 0);
         }
 
-        int helper(int n, int[] A) {
-            if (M.containsKey(n)) {
-                return M.get(n);
+        private int helper(int[] A, int i) {
+            if (M.containsKey(i)) {
+                return M.get(i);
             } else {
-                var len = A.length;
-                int sum;
-                if (len == 1) {
-                    sum = n + A[0];
-                } else if (len == 2) {
-                    sum = n + Math.max(A[0], A[1]);
+                int n;
+                if (i == A.length) {
+                    n = 0;
+                } else if (i == A.length - 1) {
+                    n = A[i];
                 } else {
-                    var A1 = Arrays.copyOfRange(A, 2, len);
-                    var A2 = Arrays.copyOfRange(A, 1, len);
-                    sum = n + Math.max(helper(A[0], A1), helper(0, A2));
+                    var a = helper(A, i + 1);
+                    var b = helper(A, i + 2) + A[i];
+                    n = Math.max(a, b);
                 }
-                M.put(n, sum);
-                return sum;
+                M.put(i, n);
+                return n;
             }
         }
     }
 
     class Tab {
-        @Tabulation
-        int sum(int[] A) {
-            var len = A.length;
-            var B = new int[len];
-            for (var i = 1; i <= len; i++) {
-                int sum;
-                var j = len - i;
-                if (i == 1) {
-                    sum = A[j];
-                } else if (i == 2) {
-                    sum = Math.max(A[j], A[j + 1]);
-                } else {
-                    sum = Math.max(A[j] + B[j + 2], B[j + 1]);
-                }
-                B[j] = sum;
-            }
-            return B[0];
-        }
+        // TODO
     }
 }
