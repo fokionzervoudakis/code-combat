@@ -76,6 +76,7 @@
   - [Problem #76 [Medium]](#problem-76-medium)
   - [Problem #77 [Easy]](#problem-77-easy)
   - [Problem #78 [Medium]](#problem-78-medium)
+  - [Problem #79 [Medium]](#problem-79-medium)
 
 ## Problem #1 [Easy]
 
@@ -1228,4 +1229,16 @@ This problem was asked by <u>Google</u>.
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
 [solution](problems_071_080/problem_078.java)
+
+## Problem #79 [Medium]
+
+This problem was asked by <u>Facebook</u>.
+
+Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
+
+For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
+
+Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+
+[solution](problems_071_080/problem_079.java)
 
