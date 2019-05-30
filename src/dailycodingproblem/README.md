@@ -77,6 +77,7 @@
   - [Problem #77 [Easy]](#problem-77-easy)
   - [Problem #78 [Medium]](#problem-78-medium)
   - [Problem #79 [Medium]](#problem-79-medium)
+  - [Problem #80 [Easy]](#problem-80-easy)
 
 ## Problem #1 [Easy]
 
@@ -1241,4 +1242,20 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
 [solution](problems_071_080/problem_079.java)
+
+## Problem #80 [Easy]
+
+This problem was asked by <u>Google</u>.
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+```
+    a
+   / \
+  b   c
+ /
+d
+```
+
+[solution](problems_071_080/problem_080.java)
 
