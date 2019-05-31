@@ -1,4 +1,4 @@
-package leetcode.problems_0640_0650;
+package leetcode.problems_0641_0650;
 
 import org.junit.jupiter.api.Test;
 

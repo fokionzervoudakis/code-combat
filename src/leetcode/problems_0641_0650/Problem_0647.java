@@ -1,4 +1,4 @@
-package leetcode.problems_0640_0650;
+package leetcode.problems_0641_0650;
 
 class Problem_0647 {
     int countSubstrings(String str) {
