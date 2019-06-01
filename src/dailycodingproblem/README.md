@@ -79,6 +79,7 @@
   - [Problem #79 [Medium]](#problem-79-medium)
   - [Problem #80 [Easy]](#problem-80-easy)
   - [Problem #81 [Easy]](#problem-81-easy)
+  - [Problem #82 [Easy]](#problem-82-easy)
 
 ## Problem #1 [Easy]
 
@@ -1269,4 +1270,14 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
 [solution](problems_081_090/problem_081.java)
+
+## Problem #82 [Easy]
+
+This problem was asked <u>Microsoft</u>.
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
+
+[solution](problems_081_090/problem_082.java)
 
