@@ -17,7 +17,7 @@ class Problem_0169 {
      @return the majority element of {@code A}
      */
     @Favorite
-    int majorityElement(int[] A) {
+    Integer majorityElement(int[] A) {
         int i = 0;
         Integer m = null;
         for (int n : A) {
