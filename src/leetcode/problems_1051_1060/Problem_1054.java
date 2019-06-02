@@ -1,6 +1,5 @@
 package leetcode.problems_1051_1060;
 
-import annotation.Favorite;
 import annotation.InPlace;
 import annotation.PseudoRandom;
 
@@ -19,7 +18,6 @@ class Problem_1054 {
      */
     @InPlace
     @PseudoRandom
-    @Favorite
     void rearrangeBarCodes(int[] A) {
         shuffle(A);
         helper(A);

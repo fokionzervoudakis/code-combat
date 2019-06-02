@@ -20,8 +20,8 @@ class Problem_032 {
      @return true if a sequence of trades starting with some amount A of any
      currency can yield some amount greater than A for that currency, else false
      */
-    @Favorite
     @Reduction
+    @Favorite
     boolean arbitrage(double[][] M) {
         int m = M.length, n = M[0].length;
 

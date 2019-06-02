@@ -1,5 +1,6 @@
 package leetcode.problems_0731_0740;
 
+import annotation.Favorite;
 import annotation.Monotonic;
 
 import java.util.Stack;
@@ -16,6 +17,7 @@ class Problem_0739 {
      @return an array of integers that represent, for each integer in {@code A},
      the number of elements until a larger element
      */
+    @Favorite
     @Monotonic
     int[] dailyTemperatures(int[] A) {
         Stack<Integer> S = new Stack<>();
