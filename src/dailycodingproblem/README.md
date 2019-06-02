@@ -80,6 +80,7 @@
   - [Problem #80 [Easy]](#problem-80-easy)
   - [Problem #81 [Easy]](#problem-81-easy)
   - [Problem #82 [Easy]](#problem-82-easy)
+  - [Problem #83 [Medium]](#problem-83-medium)
 
 ## Problem #1 [Easy]
 
@@ -752,11 +753,11 @@ And the following inorder traversal:
 You should return the following tree:
 
 ```
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
+     a
+    / \
+  b     c
+ / \   / \
+d   e f   g
 ```
 
 [Solution](problems_041_050/Problem_048.java)
@@ -786,11 +787,11 @@ Given the root to such a tree, write a function to evaluate it.
 For example, given the following tree:
 
 ```
-    *
-   / \
-  +    +
- / \  / \
-3  2  4  5
+     *
+    / \
+  +     +
+ / \   / \
+3   2 4   5
 ```
 
 You should return 45, as it is (3 + 2) * (4 + 5).
@@ -1280,4 +1281,32 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
 
 [solution](problems_081_090/problem_082.java)
+
+## Problem #83 [Medium]
+
+This problem was asked by Google.
+
+Invert a binary tree.
+
+For example, given the following tree:
+
+```
+     a
+    / \
+  b     c
+ / \   /
+d   e f
+```
+
+should become:
+
+```
+   a
+  / \
+c     b
+ \   / \
+  f e   d
+```
+
+[solution](problems_081_090/problem_083.java)
 
