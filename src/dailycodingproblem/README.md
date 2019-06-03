@@ -81,6 +81,7 @@
   - [Problem #81 [Easy]](#problem-81-easy)
   - [Problem #82 [Easy]](#problem-82-easy)
   - [Problem #83 [Medium]](#problem-83-medium)
+  - [Problem #84 [Medium]](#problem-84-medium)
 
 ## Problem #1 [Easy]
 
@@ -1309,4 +1310,23 @@ c     b
 ```
 
 [solution](problems_081_090/problem_083.java)
+
+## Problem #84 [Medium]
+
+This problem was asked by <u>Amazon</u>.
+
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands.
+
+```
+1 0 0 0 0
+0 0 1 1 0
+0 1 1 0 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 1
+```
+
+[solution](problems_081_090/problem_084.java)
 
