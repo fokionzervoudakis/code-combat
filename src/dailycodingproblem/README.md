@@ -82,6 +82,7 @@
   - [Problem #82 [Easy]](#problem-82-easy)
   - [Problem #83 [Medium]](#problem-83-medium)
   - [Problem #84 [Medium]](#problem-84-medium)
+  - [Problem #85 [Medium]](#problem-85-medium)
 
 ## Problem #1 [Easy]
 
@@ -1329,4 +1330,12 @@ For example, this matrix has 4 islands.
 ```
 
 [solution](problems_081_090/problem_084.java)
+
+## Problem #85 [Medium]
+
+This problem was asked by <u>Facebook</u>.
+
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+
+[solution](problems_081_090/problem_085.java)
 
