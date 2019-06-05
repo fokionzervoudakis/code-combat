@@ -8,6 +8,7 @@ class Test_086 {
     @Test
     void itCountsTheParenthesesToBeRemoved() {
         var P = new Problem_086();
+        assertEquals(0, P.countParen("()"));
         assertEquals(1, P.countParen("()())()"));
         assertEquals(2, P.countParen(")("));
         assertEquals(3, P.countParen("()((("));
