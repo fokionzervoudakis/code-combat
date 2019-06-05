@@ -83,6 +83,7 @@
   - [Problem #83 [Medium]](#problem-83-medium)
   - [Problem #84 [Medium]](#problem-84-medium)
   - [Problem #85 [Medium]](#problem-85-medium)
+  - [Problem #86 [Medium]](#problem-86-medium)
 
 ## Problem #1 [Easy]
 
@@ -1338,4 +1339,14 @@ This problem was asked by <u>Facebook</u>.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
 [solution](problems_081_090/problem_085.java)
+
+## Problem #86 [Medium]
+
+This problem was asked by <u>Google</u>.
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+[solution](problems_081_090/problem_086.java)
 
