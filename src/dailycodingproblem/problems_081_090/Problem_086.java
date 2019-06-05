@@ -4,8 +4,9 @@ import java.util.Stack;
 
 /**
  Problem #85 [Medium] - Google
+ <p>{@link leetcode.problems_0921_0930.Problem_0921}
  */
-class Problem_086 {
+public class Problem_086 {
     /**
      Asymptotic analysis:
      <ul>
