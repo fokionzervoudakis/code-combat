@@ -5,6 +5,16 @@ package dailycodingproblem.problems_081_090;
  <p>{@link leetcode.problems_0221_0230.Problem_0226}
  */
 public class Problem_083 {
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(n)
+     <li>space_worst=O(n)
+     </ul>
+
+     @param N the root of a binary tree
+     @return the inverted tree with root {@code N}
+     */
     Node invert(Node N) {
         if (N == null) {
             return null;
