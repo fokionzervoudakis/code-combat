@@ -23,12 +23,12 @@ class NumToWords {
             str = B[n / 10] + " " + helper(n % 10);
         } else if (n < 1000) {
             str = helper(n / 100) + " Hundred " + helper(n % 100);
-        } else if (n < 1000000) {
+        } else if (n < 1_000_000) {
             str = helper(n / 1000) + " Thousand " + helper(n % 1000);
-        } else if (n < 1000000000) {
-            str = helper(n / 1000000) + " Million " + helper(n % 1000000);
+        } else if (n < 1_000_000_000) {
+            str = helper(n / 1_000_000) + " Million " + helper(n % 1_000_000);
         } else {
-            str = helper(n / 1000000000) + " Billion " + helper(n % 1000000000);
+            str = helper(n / 1_000_000_000) + " Billion " + helper(n % 1_000_000_000);
         }
         return str.trim();
     }
