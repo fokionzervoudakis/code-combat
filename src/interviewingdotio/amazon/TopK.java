@@ -21,10 +21,10 @@ class TopK {
 
      @param A a non-empty array of integers
      @param k the number of most frequent elements in {@code A}
-     @return the {@code k} of most frequent elements in {@code A}
+     @return the {@code k} most frequent elements in {@code A}
      */
     @HashTable
-    List<Integer> getToK(int[] A, int k) {
+    List<Integer> getTopK(int[] A, int k) {
         if (k < 1) {
             return new ArrayList<>();
         }

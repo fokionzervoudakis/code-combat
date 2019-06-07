@@ -18,21 +18,21 @@ class TopKTest {
     @Test
     void itReturnsZeroElements() {
         var expected = "[]";
-        var actual = topK.getToK(A, 0).toString();
+        var actual = topK.getTopK(A, 0).toString();
         assertEquals(expected, actual);
     }
 
     @Test
     void itReturnsOneElement() {
         var expected = "[4]";
-        var actual = topK.getToK(A, 1).toString();
+        var actual = topK.getTopK(A, 1).toString();
         assertEquals(expected, actual);
     }
 
     @Test
     void itReturnsManyElements() {
         var expected = "[4, 3]";
-        var actual = topK.getToK(A, 2).toString();
+        var actual = topK.getTopK(A, 2).toString();
         assertEquals(expected, actual);
     }
 }
