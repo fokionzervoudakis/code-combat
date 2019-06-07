@@ -85,6 +85,7 @@
   - [Problem #85 [Medium]](#problem-85-medium)
   - [Problem #86 [Medium]](#problem-86-medium)
   - [Problem #87 [Hard]](#problem-87-hard)
+  - [Problem #88 [Medium]](#problem-88-medium)
 
 ## Problem #1 [Easy]
 
@@ -1386,6 +1387,13 @@ A N B
 
 is considered valid.
 
-
 [solution](problems_081_090/problem_087.java)
+
+## Problem #88 [Medium]
+
+This question was asked by <u>ContextLogic</u>.
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+
+[solution](problems_081_090/problem_088.java)
 
