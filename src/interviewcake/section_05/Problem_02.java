@@ -1,7 +1,8 @@
 package interviewcake.section_05;
 
 /**
- {@link interviewcake.section_06.Problem_06}
+ {@link dailycodingproblem.problems_081_090.Problem_089}
+ <p>{@link interviewcake.section_06.Problem_06}
  */
 public class Problem_02 {
     /**
@@ -30,7 +31,6 @@ public class Problem_02 {
 
     static class Node {
         int val;
-
         Node l, r;
 
         Node(int val) {
