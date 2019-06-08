@@ -8,8 +8,9 @@ import java.util.List;
 
 /**
  Problem #18 [Hard] - Google
+ <p>{@link leetcode.problems_0231_0240.Problem_0239}
  */
-class Problem_018 {
+public class Problem_018 {
     /**
      Asymptotic analysis:
      <ul>
