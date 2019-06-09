@@ -1,6 +1,9 @@
 package interviewcake.section_08;
 
-class Problem_02 {
+/**
+ {@link leetcode.problems_0141_0150.Problem_0141}
+ */
+public class Problem_02 {
     /**
      Implements a variation of Floyd's cycle-finding algorithm.
      <p>Asymptotic analysis:
