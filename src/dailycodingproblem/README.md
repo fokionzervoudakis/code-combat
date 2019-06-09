@@ -87,6 +87,7 @@
   - [Problem #87 [Hard]](#problem-87-hard)
   - [Problem #88 [Medium]](#problem-88-medium)
   - [Problem #89 [Medium]](#problem-89-medium)
+  - [Problem #90 [Medium]](#problem-90-medium)
 
 ## Problem #1 [Easy]
 
@@ -1407,4 +1408,12 @@ Determine whether a tree is a valid binary search tree.
 A binary search tree is a tree with two children, ```left``` and ```right```, and satisfies the constraint that the key in the ```left``` child must be less than or equal to the root and the key in the ```right``` child must be greater than or equal to the root.
 
 [solution](problems_081_090/problem_089.java)
+
+## Problem #90 [Medium]
+
+This question was asked by <u>Google</u>.
+
+Given an integer ```n``` and a list of integers ```l```, write a function that randomly generates a number from ```0``` to ```n-1``` that isn't in ```l``` (uniform).
+
+[solution](problems_081_090/problem_090.java)
 
