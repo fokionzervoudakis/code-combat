@@ -88,6 +88,7 @@
   - [Problem #88 [Medium]](#problem-88-medium)
   - [Problem #89 [Medium]](#problem-89-medium)
   - [Problem #90 [Medium]](#problem-90-medium)
+  - [Problem #91 [Easy]](#problem-91-easy)
 
 ## Problem #1 [Easy]
 
@@ -1416,4 +1417,22 @@ This question was asked by <u>Google</u>.
 Given an integer ```n``` and a list of integers ```l```, write a function that randomly generates a number from ```0``` to ```n-1``` that isn't in ```l``` (uniform).
 
 [solution](problems_081_090/problem_090.java)
+
+## Problem #91 [Easy]
+
+
+This problem was asked by <u>Dropbox</u>.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```python
+functions = []
+for i in range(10):
+    functions.append(lambda : i)
+
+for f in functions:
+    print(f())
+```
+
+[solution](problems_081_090/problem_091.java)
 
