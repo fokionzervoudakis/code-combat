@@ -90,6 +90,7 @@
   - [Problem #90 [Medium]](#problem-90-medium)
   - [Problem #91 [Easy]](#problem-91-easy)
   - [Problem #92 [Hard]](#problem-92-hard)
+  - [Problem #93 [Hard]](#problem-93-hard)
 
 ## Problem #1 [Easy]
 
@@ -1421,7 +1422,6 @@ Given an integer ```n``` and a list of integers ```l```, write a function that r
 
 ## Problem #91 [Easy]
 
-
 This problem was asked by <u>Dropbox</u>.
 
 What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
@@ -1448,4 +1448,14 @@ Return null if there is no such ordering.
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
 [solution](problems_081_090/problem_092.java)
+
+## Problem #93 [Hard]
+
+This problem was asked by <u>Apple</u>.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[solution](problems_081_090/problem_093.java)
 
