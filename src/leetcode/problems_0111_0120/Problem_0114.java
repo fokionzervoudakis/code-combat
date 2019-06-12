@@ -1,7 +1,7 @@
 package leetcode.problems_0111_0120;
 
 class Problem_0114 {
-    // TODO
+    // TODO test
     void flatten(Node N) {
         if (N == null) {
             return;
