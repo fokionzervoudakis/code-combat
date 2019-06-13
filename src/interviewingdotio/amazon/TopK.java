@@ -10,8 +10,9 @@ import java.util.PriorityQueue;
 
 /**
  https://interviewing.io/recordings/C++-Amazon-1
+ <p>{@link leetcode.problems_0341_0350.Problem_0347}
  */
-class TopK {
+public class TopK {
     /**
      Asymptotic analysis:
      <ul>
@@ -45,9 +46,9 @@ class TopK {
                 H.add(new Node(E.getKey(), count));
             }
         }
-        var L2 = new ArrayList<Integer>();
-        H.forEach(node -> L2.add(0, node.val));
-        return L2;
+        var L = new ArrayList<Integer>();
+        H.forEach(node -> L.add(0, node.val));
+        return L;
     }
 
     private class Node {
