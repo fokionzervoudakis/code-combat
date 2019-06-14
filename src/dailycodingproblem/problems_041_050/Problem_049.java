@@ -2,8 +2,9 @@ package dailycodingproblem.problems_041_050;
 
 /**
  Problem #49 [Medium] - Amazon
+ <p>{@link leetcode.problems_0151_0160.Problem_0152}
  */
-class Problem_049 {
+public class Problem_049 {
     /**
      Asymptotic analysis:
      <ul>
