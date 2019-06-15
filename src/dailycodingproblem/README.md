@@ -93,6 +93,7 @@
   - [Problem #93 [Hard]](#problem-93-hard)
   - [Problem #94 [Easy]](#problem-94-easy)
   - [Problem #95 [Hard]](#problem-95-hard)
+  - [Problem #96 [Easy]](#problem-96-easy)
 
 ## Problem #1 [Easy]
 
@@ -1480,4 +1481,14 @@ For example, the list ```[1,2,3]``` should return ```[1,3,2]```. The list ```[1,
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
 [solution](problems_081_090/problem_095.java)
+
+## Problem #96 [Easy]
+
+This problem was asked by <u>Microsoft</u>.
+
+Given a number in the form of a list of digits, return all possible permutations.
+
+For example, given ```[1,2,3]```, return ```[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]```.
+
+[solution](problems_081_090/problem_096.java)
 
