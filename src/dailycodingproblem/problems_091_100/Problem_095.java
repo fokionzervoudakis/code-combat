@@ -4,8 +4,9 @@ import annotation.InPlace;
 
 /**
  Problem #95 [Hard] - Palantir
+ <p>{@link leetcode.problems_0031_0040.Problem_0031}
  */
-class Problem_095 {
+public class Problem_095 {
     /**
      Asymptotic analysis:
      <ul>
