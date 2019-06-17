@@ -5,7 +5,10 @@ import annotation.pattern.Backtracking;
 import java.util.HashSet;
 import java.util.Set;
 
-class Problem_0079 {
+/**
+ <p>{@link dailycodingproblem.problems_091_100.Problem_098}
+ */
+public class Problem_0079 {
     private Set<String> visited;
 
     /**
