@@ -972,7 +972,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 ## Problem #64 [Hard]
 
-This problem was asked by Google.
+This problem was asked by <u>Google</u>.
 
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 
@@ -1300,7 +1300,7 @@ For example, given a file with the content "Hello world", three read7() returns 
 
 ## Problem #83 [Medium]
 
-This problem was asked by Google.
+This problem was asked by <u>Google</u>.
 
 Invert a binary tree.
 
@@ -1445,7 +1445,7 @@ for f in functions:
 
 ## Problem #92 [Hard]
 
-This problem was asked by Airbnb.
+This problem was asked by <u>Airbnb</u>.
 
 We're given a hashmap associating each ```courseId``` key with a list of ```courseIds``` values, which represents that the prerequisites of ```courseId``` are ```courseIds```. Return a sorted ordering of courses such that we can finish all courses.
 
@@ -1497,7 +1497,7 @@ For example, given ```[1,2,3]```, return ```[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,
 
 ## Problem #97 [Medium]
 
-This problem was asked by Stripe.
+This problem was asked by <u>Stripe</u>.
 
 Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
 
@@ -1531,7 +1531,7 @@ d.get(1, 0) # get key 1 at time 0 should be 2
 
 ## Problem #98 [Easy]
 
-This problem was asked by Coursera.
+This problem was asked by <u>Coursera</u>.
 
 Given a 2D board of characters and a word, find if the word exists in the grid.
 
