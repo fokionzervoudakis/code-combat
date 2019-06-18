@@ -1,45 +1,49 @@
 package dailycodingproblem.problems_091_100;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.Stack;
 
 /**
  Problem #92 [Hard] - Airbnb
  */
 class Problem_092 {
-    List<String> out = new ArrayList<>();
-    Set<String> done = new HashSet<>();
+    Set<String> gray = new HashSet<>();
+    Set<String> black = new LinkedHashSet<>();
 
-    // TODO Javadoc+test
+    /**
+     Asymptotic analysis:
+     <ul>
+     <li>time_worst=O(V+E)
+     <li>space_worst=O(V)
+     </ul>
+
+     @param M a hash map of course IDs and course ID lists, which represent
+     the course prerequisites for their respective keys
+     @return a sorted ordering of courses with respect to course prerequisites
+     */
     List<String> dfs(Map<String, List<String>> M) {
         for (var E : M.entrySet()) {
-            if (!done.contains(E.getKey())) {
+            if (!black.contains(E.getKey())) {
                 dfsVisit(M, E.getKey());
             }
         }
-        Collections.reverse(out);
-        return out;
+        return new ArrayList<>(black);
     }
 
-    private void dfsVisit(Map<String, List<String>> M, String start) {
-        var S = new Stack<String>();
-        S.push(start);
-        while (!S.isEmpty()) {
-            var str1 = S.pop();
-            out.add(str1);
-            done.add(str1);
-            for (var str2 : M.get(str1)) {
-                if (done.contains(str2)) {
-                    throw new RuntimeException();
-                } else {
-                    S.push(str2);
-                }
+    private void dfsVisit(Map<String, List<String>> M, String u) {
+        gray.add(u);
+        for (var v : M.get(u)) {
+            if (gray.contains(v)) {
+                throw new RuntimeException();
+            } else if (!black.contains(v)) {
+                dfsVisit(M, v);
             }
         }
+        gray.remove(u);
+        black.add(u);
     }
 }
