@@ -96,6 +96,7 @@
   - [Problem #96 [Easy]](#Problem-96-Easy)
   - [Problem #97 [Medium]](#Problem-97-Medium)
   - [Problem #98 [Easy]](#Problem-98-Easy)
+  - [Problem #99 [Medium]](#Problem-99-Medium)
 
 ## Problem #1 [Easy]
 
@@ -1553,4 +1554,16 @@ For example, given the following board:
 ```exists(board, "ABCB")``` returns false.
 
 [solution](problems_081_090/problem_098.java)
+
+## Problem #99 [Medium]
+
+This problem was asked by <u>Microsoft</u>.
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given ```[100, 4, 200, 1, 3, 2]```, the longest consecutive element sequence is ```[1, 2, 3, 4]```. Return its length: ```4```.
+
+Your algorithm should run in ```O(n)``` complexity.
+
+[solution](problems_081_090/problem_099.java)
 

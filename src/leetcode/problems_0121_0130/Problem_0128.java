@@ -3,7 +3,10 @@ package leetcode.problems_0121_0130;
 import java.util.HashSet;
 import java.util.Set;
 
-class Problem_0128 {
+/**
+ {@link dailycodingproblem.problems_091_100.Problem_099}
+ */
+public class Problem_0128 {
     /**
      Asymptotic analysis:
      <ul>
