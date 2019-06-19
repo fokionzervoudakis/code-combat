@@ -1,5 +1,6 @@
 package dailycodingproblem.problems_091_100;
 
+import annotation.Favorite;
 import annotation.InPlace;
 
 /**
@@ -8,7 +9,9 @@ import annotation.InPlace;
  */
 public class Problem_095 {
     /**
-     Asymptotic analysis:
+     Uses Knuth's Algorithm L to generate the next lexicographic permutation of
+     a number represented as an integer array.
+     <p>Asymptotic analysis:
      <ul>
      <li>time_worst=O(n)
      <li>space_worst=O(1)
@@ -16,6 +19,7 @@ public class Problem_095 {
 
      @param A an array of integers
      */
+    @Favorite
     @InPlace
     void nextPermutation(int[] A) {
         int n = A.length, i = n - 2;
