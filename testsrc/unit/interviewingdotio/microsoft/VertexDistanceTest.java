@@ -18,10 +18,10 @@ class VertexDistanceTest {
     void beforeEach() {
         distance = new VertexDistance();
         L = new ArrayList<>() {{
-            add(new Point(2, 2));
-            add(new Point(3, 3));
-            add(new Point(4, 4));
             add(new Point(5, 5));
+            add(new Point(4, 4));
+            add(new Point(3, 3));
+            add(new Point(2, 2));
         }};
         origin = new Point(1, 1);
     }
@@ -42,7 +42,7 @@ class VertexDistanceTest {
 
     @Test
     void itReturnsManyElements() {
-        var expected = "[3,3, 2,2]";
+        var expected = "[2,2, 3,3]";
         var actual = distance.getClosest(L, origin, 2).toString();
         assertEquals(expected, actual);
     }

@@ -1,14 +1,14 @@
 package interviewingdotio.microsoft;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
 /**
  https://interviewing.io/recordings/Go-Microsoft-1/
+ <p>{@link leetcode.problems_0971_0980.Problem_0973}
  */
-class VertexDistance {
+public class VertexDistance {
     /**
      Asymptotic analysis:
      <ul>
@@ -26,7 +26,7 @@ class VertexDistance {
         if (k < 1) {
             return new ArrayList<>();
         }
-        var H = new PriorityQueue<Node>(Comparator.comparingDouble(o -> o.dist));
+        var H = new PriorityQueue<Node>((o1, o2) -> Double.compare(o2.dist, o1.dist));
         for (var p : L) {
             var dist = Math.sqrt(Math.pow(origin.x - p.x, 2) + Math.pow(origin.y - p.y, 2));
             if (H.size() == k) {
