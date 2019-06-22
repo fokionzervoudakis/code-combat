@@ -5,7 +5,10 @@ import annotation.pattern.SlidingWindow;
 import java.util.HashMap;
 import java.util.Map;
 
-class Problem_0076 {
+/**
+ {@link dailycodingproblem.problems_101_110.Problem_103}
+ */
+public class Problem_0076 {
     /**
      Asymptotic analysis:
      <ul>
@@ -24,7 +27,6 @@ class Problem_0076 {
         for (char c : T.toCharArray()) {
             tMap.put(c, tMap.containsKey(c) ? tMap.get(c) + 1 : 1);
         }
-
 
         Map<Character, Integer> winMap = new HashMap<>();
 

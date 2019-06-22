@@ -97,6 +97,7 @@
   - [Problem #97 [Medium]](#Problem-97-Medium)
   - [Problem #98 [Easy]](#Problem-98-Easy)
   - [Problem #102 [Medium]](#Problem-102-Medium)
+  - [Problem #103 [Medium]](#Problem-103-Medium)
 
 ## Problem #1 [Easy]
 
@@ -1634,4 +1635,16 @@ Given a list of integers and a number K, return which contiguous elements of the
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 [solution](problems_101_110/problem_102.java)
+
+## Problem #103 [Medium]
+
+This problem was asked by <u>Square</u>.
+
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
+
+[solution](problems_101_110/problem_103.java)
 
