@@ -96,6 +96,7 @@
   - [Problem #96 [Easy]](#Problem-96-Easy)
   - [Problem #97 [Medium]](#Problem-97-Medium)
   - [Problem #98 [Easy]](#Problem-98-Easy)
+  - [Problem #102 [Medium]](#Problem-102-Medium)
 
 ## Problem #1 [Easy]
 
@@ -1623,4 +1624,14 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 If ```a < c OR a == c AND b < d```.
 
 [solution](problems_101_110/problem_101.java)
+
+## Problem #102 [Medium]
+
+This problem was asked by <u>Lyft</u>.
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+
+[solution](problems_101_110/problem_102.java)
 

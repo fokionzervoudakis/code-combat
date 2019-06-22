@@ -1,6 +1,9 @@
 package leetcode.problems_0551_0560;
 
-class Problem_0560 {
+/**
+ {@link dailycodingproblem.problems_101_110.Problem_102}
+ */
+public class Problem_0560 {
     /**
      Asymptotic analysis:
      <ul>
