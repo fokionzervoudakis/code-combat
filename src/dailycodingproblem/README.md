@@ -98,6 +98,7 @@
   - [Problem #98 [Easy]](#Problem-98-Easy)
   - [Problem #102 [Medium]](#Problem-102-Medium)
   - [Problem #103 [Medium]](#Problem-103-Medium)
+  - [Problem #104 [Easy]](#Problem-104-Easy)
 
 ## Problem #1 [Easy]
 
@@ -1647,4 +1648,14 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 If there is no substring containing all the characters in the set, return null.
 
 [solution](problems_101_110/problem_103.java)
+
+## Problem #104 [Easy]
+
+This problem was asked by <u>Google</u>.
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, ```1 -> 4 -> 3 -> 4 -> 1``` returns ```True``` while ```1 -> 4``` returns ```False```.
+
+[solution](problems_101_110/problem_104.java)
 
