@@ -99,6 +99,7 @@
   - [Problem #102 [Medium]](#Problem-102-Medium)
   - [Problem #103 [Medium]](#Problem-103-Medium)
   - [Problem #104 [Easy]](#Problem-104-Easy)
+  - [Problem #105 [Easy]](#Problem-105-Easy)
 
 ## Problem #1 [Easy]
 
@@ -1658,4 +1659,14 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 For example, ```1 -> 4 -> 3 -> 4 -> 1``` returns ```True``` while ```1 -> 4``` returns ```False```.
 
 [solution](problems_101_110/problem_104.java)
+
+## Problem #105 [Easy]
+
+This problem was asked by <u>Facebook</u>.
+
+Given a function ```f``` and ```N``` return a debounced ```f``` of ```N``` milliseconds.
+
+That is, as long as the debounced ```f``` continues to be invoked, ```f``` itself will not be called for ```N``` milliseconds.
+
+[solution](problems_101_110/problem_105.java)
 
