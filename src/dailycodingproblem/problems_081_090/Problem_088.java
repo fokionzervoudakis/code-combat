@@ -2,8 +2,9 @@ package dailycodingproblem.problems_081_090;
 
 /**
  Problem #88 [Medium] - ContextLogic
+ <p>{@link leetcode.problems_0021_0030.Problem_0029}
  */
-class Problem_088 {
+public class Problem_088 {
     /**
      Asymptotic analysis:
      <ul>
