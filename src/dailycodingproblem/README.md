@@ -100,6 +100,7 @@
   - [Problem #103 [Medium]](#Problem-103-Medium)
   - [Problem #104 [Easy]](#Problem-104-Easy)
   - [Problem #105 [Easy]](#Problem-105-Easy)
+  - [Problem #106 [Medium]](#Problem-106-Medium)
 
 ## Problem #1 [Easy]
 
@@ -1669,4 +1670,14 @@ Given a function ```f``` and ```N``` return a debounced ```f``` of ```N``` milli
 That is, as long as the debounced ```f``` continues to be invoked, ```f``` itself will not be called for ```N``` milliseconds.
 
 [solution](problems_101_110/problem_105.java)
+
+## Problem #106 [Medium]
+
+This problem was asked by <u>Pinterest</u>.
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, ```[2, 0, 1, 0]``` returns ```True``` while ```[1, 1, 0, 1]``` returns ```False```.
+
+[solution](problems_101_110/problem_106.java)
 
