@@ -1,6 +1,9 @@
 package interviewcake.section_06;
 
-class Problem_04 {
+/**
+ {@link leetcode.problems_0321_0330.Problem_0322}
+ */
+public class Problem_04 {
     /**
      Asymptotic analysis:
      <ul>
