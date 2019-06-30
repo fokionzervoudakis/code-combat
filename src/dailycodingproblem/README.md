@@ -96,8 +96,6 @@
   - [Problem #96 [Easy]](#Problem-96-Easy)
   - [Problem #97 [Medium]](#Problem-97-Medium)
   - [Problem #98 [Easy]](#Problem-98-Easy)
-  - [Problem #108 [Easy]](#Problem-108-Easy)
-  - [Problem #109 [Medium]](#Problem-109-Medium)
 
 ## Problem #1 [Easy]
 
@@ -1715,4 +1713,24 @@ For example, ```10101010``` should be ```01010101```. ```11100010``` should be `
 Bonus: Can you do this in one line?
 
 [solution](problems_101_110/problem_109.java)
+
+## Problem #110 [Easy]
+
+This problem was asked by <u>Facebook</u>.
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+
+Return ```[[1, 2], [1, 3, 4], [1, 3, 5]]```.
+
+[solution](problems_101_110/problem_110.java)
 
