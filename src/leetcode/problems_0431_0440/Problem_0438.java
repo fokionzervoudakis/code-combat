@@ -5,7 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Problem_0438 {
+/**
+ {@link dailycodingproblem.problems_111_120.Problem_111}
+ */
+public class Problem_0438 {
     /**
      Asymptotic analysis:
      <ul>

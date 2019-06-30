@@ -96,6 +96,7 @@
   - [Problem #96 [Easy]](#Problem-96-Easy)
   - [Problem #97 [Medium]](#Problem-97-Medium)
   - [Problem #98 [Easy]](#Problem-98-Easy)
+  - [Problem #111 [Hard]](#Problem-111-Hard)
 
 ## Problem #1 [Easy]
 
@@ -1733,4 +1734,14 @@ For example, given the tree:
 Return ```[[1, 2], [1, 3, 4], [1, 3, 5]]```.
 
 [solution](problems_101_110/problem_110.java)
+
+## Problem #111 [Hard]
+
+This problem was asked by <u>Google</u>.
+
+Given a word ```W``` and a string ```S```, find all starting indices in ```S``` which are anagrams of ```W```.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[solution](problems_111_120/problem_111.java)
 
