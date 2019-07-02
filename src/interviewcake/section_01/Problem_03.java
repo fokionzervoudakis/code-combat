@@ -2,7 +2,10 @@ package interviewcake.section_01;
 
 import annotation.InPlace;
 
-class Problem_03 {
+/**
+ {@link dailycodingproblem.problems_111_120.Problem_113}
+ */
+public class Problem_03 {
     /**
      Asymptotic analysis:
      <ul>
