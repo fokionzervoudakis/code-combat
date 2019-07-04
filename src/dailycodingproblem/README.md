@@ -99,6 +99,8 @@
   - [Problem #111 [Hard]](#Problem-111-Hard)
   - [Problem #112 [Hard]](#Problem-112-Hard)
   - [Problem #113 [Medium]](#Problem-113-Medium)
+  - [Problem #114 [Hard]](#Problem-114-Hard)
+  - [Problem #115 [Hard]](#Problem-115-Hard)
 
 ## Problem #1 [Easy]
 
@@ -1766,4 +1768,22 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
 [solution](problems_111_120/problem_113.java)
+
+## Problem #114 [Hard]
+
+This problem was asked by <u>Facebook</u>.
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+[solution](problems_111_120/problem_114.java)
+
+## Problem #115 [Hard]
+
+This problem was asked by <u>Google</u>.
+
+Given two non-empty binary trees ```s``` and ```t```, check whether tree ```t``` has exactly the same structure and node values with a subtree of ```s```. A subtree of ```s``` is a tree consists of a node in ```s``` and all of this node's descendants. The tree ```s``` could also be considered as a subtree of itself.
+
+[solution](problems_111_120/problem_115.java)
 
