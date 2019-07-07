@@ -101,6 +101,9 @@
   - [Problem #113 [Medium]](#Problem-113-Medium)
   - [Problem #114 [Hard]](#Problem-114-Hard)
   - [Problem #115 [Hard]](#Problem-115-Hard)
+  - [Problem #116 [Medium]](#Problem-116-Medium)
+  - [Problem #117 [Easy]](#Problem-117-Easy)
+  - [Problem #118 [Easy]](#Problem-118-Easy)
 
 ## Problem #1 [Easy]
 
@@ -1786,4 +1789,32 @@ This problem was asked by <u>Google</u>.
 Given two non-empty binary trees ```s``` and ```t```, check whether tree ```t``` has exactly the same structure and node values with a subtree of ```s```. A subtree of ```s``` is a tree consists of a node in ```s``` and all of this node's descendants. The tree ```s``` could also be considered as a subtree of itself.
 
 [solution](problems_111_120/problem_115.java)
+
+## Problem #116 [Medium]
+
+This problem was asked by <u>Jane Street</u>.
+
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, ```generate()``` should return a tree whose size is unbounded but finite.
+
+[solution](problems_111_120/problem_116.java)
+
+## Problem #117 [Easy]
+
+This problem was asked by <u>Facebook</u>.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[solution](problems_111_120/problem_117.java)
+
+## Problem #118 [Easy]
+
+This problem was asked by <u>Google</u>.
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[solution](problems_111_120/problem_118.java)
 
