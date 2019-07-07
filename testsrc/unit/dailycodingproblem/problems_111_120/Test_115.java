@@ -22,7 +22,7 @@ class Test_115 {
     }
 
     @Test
-    void itReturnsTrueIfTwoTreesOverlap() {
+    void itReturnsTrueWhenTwoTreesOverlap() {
         var T = new Node(2);
         T.l = new Node(3);
         T.r = new Node(4);
@@ -30,10 +30,18 @@ class Test_115 {
     }
 
     @Test
-    void itReturnsFalseIfTwoTreesDoNotOverlap() {
+    void itReturnsFalseWhenTreeValuesDoNotOverlap() {
         var T = new Node(2);
         T.l = new Node(3);
         T.r = new Node(5);
+        assertFalse(P.isSubtree(S, T));
+    }
+
+    @Test
+    void itReturnsFalseWhenTreeStructuresDoNotOverlap() {
+        var T = new Node(2);
+        T.l = new Node(3);
+        T.l.l = new Node(4);
         assertFalse(P.isSubtree(S, T));
     }
 }

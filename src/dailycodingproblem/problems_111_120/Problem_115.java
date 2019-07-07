@@ -36,7 +36,6 @@ class Problem_115 {
 
     static class Node {
         int val;
-
         Node l, r;
 
         Node(int val) {
@@ -45,7 +44,7 @@ class Problem_115 {
 
         @Override
         public String toString() {
-            return val + "";
+            return "(" + l + " " + val + " " + r + ")";
         }
     }
 }
