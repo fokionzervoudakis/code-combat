@@ -1,111 +1,133 @@
 # Daily Coding Problem
 
-- [Daily Coding Problem](#Daily-Coding-Problem)
-  - [Problem #1 [Easy]](#Problem-1-Easy)
-  - [Problem #2 [Hard]](#Problem-2-Hard)
-  - [Problem #3 [Medium]](#Problem-3-Medium)
-  - [Problem #4 [Hard]](#Problem-4-Hard)
-  - [Problem #5 [Medium]](#Problem-5-Medium)
-  - [Problem #9 [Hard]](#Problem-9-Hard)
-  - [Problem #10 [Medium]](#Problem-10-Medium)
-  - [Problem #11 [Medium]](#Problem-11-Medium)
-  - [Problem #12 [Hard]](#Problem-12-Hard)
-  - [Problem #13 [Hard]](#Problem-13-Hard)
-  - [Problem #14 [Medium]](#Problem-14-Medium)
-  - [Problem #15 [Medium]](#Problem-15-Medium)
-  - [Problem #16 [Easy]](#Problem-16-Easy)
-  - [Problem #17 [Hard]](#Problem-17-Hard)
-  - [Problem #18 [Hard]](#Problem-18-Hard)
-  - [Problem #19 [Medium]](#Problem-19-Medium)
-  - [Problem #20 [Easy]](#Problem-20-Easy)
-  - [Problem #21 [Easy]](#Problem-21-Easy)
-  - [Problem #22 [Medium]](#Problem-22-Medium)
-  - [Problem #23 [Easy]](#Problem-23-Easy)
-  - [Problem #24 [Medium]](#Problem-24-Medium)
-  - [Problem #25 [Hard]](#Problem-25-Hard)
-  - [Problem #26 [Medium]](#Problem-26-Medium)
-  - [Problem #27 [Easy]](#Problem-27-Easy)
-  - [Problem #28 [Medium]](#Problem-28-Medium)
-  - [Problem #29 [Easy]](#Problem-29-Easy)
-  - [Problem #30 [Medium]](#Problem-30-Medium)
-  - [Problem #31 [Easy]](#Problem-31-Easy)
-  - [Problem #32 [Hard]](#Problem-32-Hard)
-  - [Problem #33 [Easy]](#Problem-33-Easy)
-  - [Problem #34 [Medium]](#Problem-34-Medium)
-  - [Problem #35 [Hard]](#Problem-35-Hard)
-  - [Problem #36 [Medium]](#Problem-36-Medium)
-  - [Problem #37 [Easy]](#Problem-37-Easy)
-  - [Problem #38 [Hard]](#Problem-38-Hard)
-  - [Problem #39 [Medium]](#Problem-39-Medium)
-  - [Problem #40 [Hard]](#Problem-40-Hard)
-  - [Problem #41 [Medium]](#Problem-41-Medium)
-  - [Problem #42 [Hard]](#Problem-42-Hard)
-  - [Problem #43 [Easy]](#Problem-43-Easy)
-  - [Problem #44 [Medium]](#Problem-44-Medium)
-  - [Problem #45 [Easy]](#Problem-45-Easy)
-  - [Problem #46 [Hard]](#Problem-46-Hard)
-  - [Problem #47 [Easy]](#Problem-47-Easy)
-  - [Problem #48 [Medium]](#Problem-48-Medium)
-  - [Problem #49 [Medium]](#Problem-49-Medium)
-  - [Problem #50 [Easy]](#Problem-50-Easy)
-  - [Problem #51 [Medium]](#Problem-51-Medium)
-  - [Problem #52 [Hard]](#Problem-52-Hard)
-  - [Problem #53 [Medium]](#Problem-53-Medium)
-  - [Problem #54 [Hard]](#Problem-54-Hard)
-  - [Problem #55 [Easy]](#Problem-55-Easy)
-  - [Problem #56 [Medium]](#Problem-56-Medium)
-  - [Problem #57 [Medium]](#Problem-57-Medium)
-  - [Problem #58 [Medium]](#Problem-58-Medium)
-  - [Problem #59 [Hard]](#Problem-59-Hard)
-  - [Problem #60 [Medium]](#Problem-60-Medium)
-  - [Problem #61 [Medium]](#Problem-61-Medium)
-  - [Problem #62 [Medium]](#Problem-62-Medium)
-  - [Problem #63 [Easy]](#Problem-63-Easy)
-  - [Problem #64 [Hard]](#Problem-64-Hard)
-  - [Problem #65 [Easy]](#Problem-65-Easy)
-  - [Problem #66 [Medium]](#Problem-66-Medium)
-  - [Problem #67 [Hard]](#Problem-67-Hard)
-  - [Problem #68 [Medium]](#Problem-68-Medium)
-  - [Problem #69 [Easy]](#Problem-69-Easy)
-  - [Problem #70 [Easy]](#Problem-70-Easy)
-  - [Problem #71 [Easy]](#Problem-71-Easy)
-  - [Problem #72 [Hard]](#Problem-72-Hard)
-  - [Problem #73 [Easy]](#Problem-73-Easy)
-  - [Problem #74 [Medium]](#Problem-74-Medium)
-  - [Problem #75 [Hard]](#Problem-75-Hard)
-  - [Problem #76 [Medium]](#Problem-76-Medium)
-  - [Problem #77 [Easy]](#Problem-77-Easy)
-  - [Problem #78 [Medium]](#Problem-78-Medium)
-  - [Problem #79 [Medium]](#Problem-79-Medium)
-  - [Problem #80 [Easy]](#Problem-80-Easy)
-  - [Problem #81 [Easy]](#Problem-81-Easy)
-  - [Problem #82 [Easy]](#Problem-82-Easy)
-  - [Problem #83 [Medium]](#Problem-83-Medium)
-  - [Problem #84 [Medium]](#Problem-84-Medium)
-  - [Problem #85 [Medium]](#Problem-85-Medium)
-  - [Problem #86 [Medium]](#Problem-86-Medium)
-  - [Problem #87 [Hard]](#Problem-87-Hard)
-  - [Problem #88 [Medium]](#Problem-88-Medium)
-  - [Problem #89 [Medium]](#Problem-89-Medium)
-  - [Problem #90 [Medium]](#Problem-90-Medium)
-  - [Problem #91 [Easy]](#Problem-91-Easy)
-  - [Problem #92 [Hard]](#Problem-92-Hard)
-  - [Problem #93 [Hard]](#Problem-93-Hard)
-  - [Problem #94 [Easy]](#Problem-94-Easy)
-  - [Problem #95 [Hard]](#Problem-95-Hard)
-  - [Problem #96 [Easy]](#Problem-96-Easy)
-  - [Problem #97 [Medium]](#Problem-97-Medium)
-  - [Problem #98 [Easy]](#Problem-98-Easy)
-  - [Problem #111 [Hard]](#Problem-111-Hard)
-  - [Problem #112 [Hard]](#Problem-112-Hard)
-  - [Problem #113 [Medium]](#Problem-113-Medium)
-  - [Problem #114 [Hard]](#Problem-114-Hard)
-  - [Problem #115 [Hard]](#Problem-115-Hard)
-  - [Problem #116 [Medium]](#Problem-116-Medium)
-  - [Problem #117 [Easy]](#Problem-117-Easy)
-  - [Problem #118 [Easy]](#Problem-118-Easy)
-  - [Problem #119 [Medium]](#Problem-119-Medium)
-  - [Problem #120 [Medium]](#Problem-120-Medium)
+- [Daily Coding Problem](#daily-coding-problem)
+  - [Problem #1 [Easy]](#problem-1-easy)
+  - [Problem #2 [Hard]](#problem-2-hard)
+  - [Problem #3 [Medium]](#problem-3-medium)
+  - [Problem #4 [Hard]](#problem-4-hard)
+  - [Problem #5 [Medium]](#problem-5-medium)
+  - [Problem #9 [Hard]](#problem-9-hard)
+  - [Problem #10 [Medium]](#problem-10-medium)
+  - [Problem #11 [Medium]](#problem-11-medium)
+  - [Problem #12 [Hard]](#problem-12-hard)
+  - [Problem #13 [Hard]](#problem-13-hard)
+  - [Problem #14 [Medium]](#problem-14-medium)
+  - [Problem #15 [Medium]](#problem-15-medium)
+  - [Problem #16 [Easy]](#problem-16-easy)
+  - [Problem #17 [Hard]](#problem-17-hard)
+  - [Problem #18 [Hard]](#problem-18-hard)
+  - [Problem #19 [Medium]](#problem-19-medium)
+  - [Problem #20 [Easy]](#problem-20-easy)
+  - [Problem #21 [Easy]](#problem-21-easy)
+  - [Problem #22 [Medium]](#problem-22-medium)
+  - [Problem #23 [Easy]](#problem-23-easy)
+  - [Problem #24 [Medium]](#problem-24-medium)
+  - [Problem #25 [Hard]](#problem-25-hard)
+  - [Problem #26 [Medium]](#problem-26-medium)
+  - [Problem #27 [Easy]](#problem-27-easy)
+  - [Problem #28 [Medium]](#problem-28-medium)
+  - [Problem #29 [Easy]](#problem-29-easy)
+  - [Problem #30 [Medium]](#problem-30-medium)
+  - [Problem #31 [Easy]](#problem-31-easy)
+  - [Problem #32 [Hard]](#problem-32-hard)
+  - [Problem #33 [Easy]](#problem-33-easy)
+  - [Problem #34 [Medium]](#problem-34-medium)
+  - [Problem #35 [Hard]](#problem-35-hard)
+  - [Problem #36 [Medium]](#problem-36-medium)
+  - [Problem #37 [Easy]](#problem-37-easy)
+  - [Problem #38 [Hard]](#problem-38-hard)
+  - [Problem #39 [Medium]](#problem-39-medium)
+  - [Problem #40 [Hard]](#problem-40-hard)
+  - [Problem #41 [Medium]](#problem-41-medium)
+  - [Problem #42 [Hard]](#problem-42-hard)
+  - [Problem #43 [Easy]](#problem-43-easy)
+  - [Problem #44 [Medium]](#problem-44-medium)
+  - [Problem #45 [Easy]](#problem-45-easy)
+  - [Problem #46 [Hard]](#problem-46-hard)
+  - [Problem #47 [Easy]](#problem-47-easy)
+  - [Problem #48 [Medium]](#problem-48-medium)
+  - [Problem #49 [Medium]](#problem-49-medium)
+  - [Problem #50 [Easy]](#problem-50-easy)
+  - [Problem #51 [Medium]](#problem-51-medium)
+  - [Problem #52 [Hard]](#problem-52-hard)
+  - [Problem #53 [Medium]](#problem-53-medium)
+  - [Problem #54 [Hard]](#problem-54-hard)
+  - [Problem #55 [Easy]](#problem-55-easy)
+  - [Problem #56 [Medium]](#problem-56-medium)
+  - [Problem #57 [Medium]](#problem-57-medium)
+  - [Problem #58 [Medium]](#problem-58-medium)
+  - [Problem #59 [Hard]](#problem-59-hard)
+  - [Problem #60 [Medium]](#problem-60-medium)
+  - [Problem #61 [Medium]](#problem-61-medium)
+  - [Problem #62 [Medium]](#problem-62-medium)
+  - [Problem #63 [Easy]](#problem-63-easy)
+  - [Problem #64 [Hard]](#problem-64-hard)
+  - [Problem #65 [Easy]](#problem-65-easy)
+  - [Problem #66 [Medium]](#problem-66-medium)
+  - [Problem #67 [Hard]](#problem-67-hard)
+  - [Problem #68 [Medium]](#problem-68-medium)
+  - [Problem #69 [Easy]](#problem-69-easy)
+  - [Problem #70 [Easy]](#problem-70-easy)
+  - [Problem #71 [Easy]](#problem-71-easy)
+  - [Problem #72 [Hard]](#problem-72-hard)
+  - [Problem #73 [Easy]](#problem-73-easy)
+  - [Problem #74 [Medium]](#problem-74-medium)
+  - [Problem #75 [Hard]](#problem-75-hard)
+  - [Problem #76 [Medium]](#problem-76-medium)
+  - [Problem #77 [Easy]](#problem-77-easy)
+  - [Problem #78 [Medium]](#problem-78-medium)
+  - [Problem #79 [Medium]](#problem-79-medium)
+  - [Problem #80 [Easy]](#problem-80-easy)
+  - [Problem #81 [Easy]](#problem-81-easy)
+  - [Problem #82 [Easy]](#problem-82-easy)
+  - [Problem #83 [Medium]](#problem-83-medium)
+  - [Problem #84 [Medium]](#problem-84-medium)
+  - [Problem #85 [Medium]](#problem-85-medium)
+  - [Problem #86 [Medium]](#problem-86-medium)
+  - [Problem #87 [Hard]](#problem-87-hard)
+  - [Problem #88 [Medium]](#problem-88-medium)
+  - [Problem #89 [Medium]](#problem-89-medium)
+  - [Problem #90 [Medium]](#problem-90-medium)
+  - [Problem #91 [Easy]](#problem-91-easy)
+  - [Problem #92 [Hard]](#problem-92-hard)
+  - [Problem #93 [Hard]](#problem-93-hard)
+  - [Problem #94 [Easy]](#problem-94-easy)
+  - [Problem #95 [Hard]](#problem-95-hard)
+  - [Problem #96 [Easy]](#problem-96-easy)
+  - [Problem #97 [Medium]](#problem-97-medium)
+  - [Problem #98 [Easy]](#problem-98-easy)
+  - [Problem #111 [Hard]](#problem-111-hard)
+  - [Problem #112 [Hard]](#problem-112-hard)
+  - [Problem #113 [Medium]](#problem-113-medium)
+  - [Problem #114 [Hard]](#problem-114-hard)
+  - [Problem #115 [Hard]](#problem-115-hard)
+  - [Problem #116 [Medium]](#problem-116-medium)
+  - [Problem #117 [Easy]](#problem-117-easy)
+  - [Problem #118 [Easy]](#problem-118-easy)
+  - [Problem #119 [Medium]](#problem-119-medium)
+  - [Problem #120 [Medium]](#problem-120-medium)
+  - [Problem #121 [Hard]](#problem-121-hard)
+  - [Problem #122 [Medium]](#problem-122-medium)
+  - [Problem #123 [Hard]](#problem-123-hard)
+  - [Problem #124 [Easy]](#problem-124-easy)
+  - [Problem #125 [Easy]](#problem-125-easy)
+  - [Problem #126 [Medium]](#problem-126-medium)
+  - [Problem #127 [Easy]](#problem-127-easy)
+  - [Problem #128 [Medium]](#problem-128-medium)
+  - [Problem #129 [Medium]](#problem-129-medium)
+  - [Problem #130 [Medium]](#problem-130-medium)
+  - [Problem #131 [Medium]](#problem-131-medium)
+  - [Problem #132 [Easy]](#problem-132-easy)
+  - [Problem #133 [Medium]](#problem-133-medium)
+  - [Problem #134 [Easy]](#problem-134-easy)
+  - [Problem #135 [Easy]](#problem-135-easy)
+  - [Problem #136 [Medium]](#problem-136-medium)
+  - [Problem #137 [Medium]](#problem-137-medium)
+  - [Problem #138 [Hard]](#problem-138-hard)
+  - [Problem #139 [Medium]](#problem-139-medium)
+  - [Problem #140 [Medium]](#problem-140-medium)
+  - [Problem #141 [Hard]](#problem-141-hard)
+  - [Problem #142 [Hard]](#problem-142-hard)
 
 ## Problem #1 [Easy]
 
@@ -1837,4 +1859,92 @@ This problem was asked by <u>Microsoft</u>.
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of ```getInstance()```, return the first instance and in every odd call of ```getInstance()```, return the second instance.
 
 [solution](problems_111_120/problem_120.java)
+
+## Problem #121 [Hard]
+
+[solution](problems_121_130/problem_121.java)
+
+## Problem #122 [Medium]
+
+[solution](problems_121_130/problem_122.java)
+
+## Problem #123 [Hard]
+
+[solution](problems_121_130/problem_123.java)
+
+## Problem #124 [Easy]
+
+[solution](problems_121_130/problem_124.java)
+
+## Problem #125 [Easy]
+
+[solution](problems_121_130/problem_125.java)
+
+## Problem #126 [Medium]
+
+[solution](problems_121_130/problem_126.java)
+
+## Problem #127 [Easy]
+
+[solution](problems_121_130/problem_127.java)
+
+## Problem #128 [Medium]
+
+[solution](problems_121_130/problem_128.java)
+
+## Problem #129 [Medium]
+
+[solution](problems_121_130/problem_129.java)
+
+## Problem #130 [Medium]
+
+[solution](problems_121_130/problem_130.java)
+
+## Problem #131 [Medium]
+
+[solution](problems_131_140/problem_131.java)
+
+## Problem #132 [Easy]
+
+[solution](problems_131_140/problem_132.java)
+
+## Problem #133 [Medium]
+
+[solution](problems_131_140/problem_133.java)
+
+## Problem #134 [Easy]
+
+[solution](problems_131_140/problem_134.java)
+
+## Problem #135 [Easy]
+
+[solution](problems_131_140/problem_135.java)
+
+## Problem #136 [Medium]
+
+[solution](problems_131_140/problem_136.java)
+
+## Problem #137 [Medium]
+
+[solution](problems_131_140/problem_137.java)
+
+## Problem #138 [Hard]
+
+[solution](problems_131_140/problem_138.java)
+
+## Problem #139 [Medium]
+
+[solution](problems_131_140/problem_139.java)
+
+## Problem #140 [Medium]
+
+[solution](problems_131_140/problem_140.java)
+
+## Problem #141 [Hard]
+
+[solution](problems_141_150/problem_141.java)
+
+## Problem #142 [Hard]
+
+[solution](problems_141_150/problem_142.java)
 
