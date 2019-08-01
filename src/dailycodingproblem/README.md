@@ -128,6 +128,7 @@
   - [Problem #140 [Medium]](#problem-140-medium)
   - [Problem #141 [Hard]](#problem-141-hard)
   - [Problem #142 [Hard]](#problem-142-hard)
+  - [Problem #143 [Medium]](#problem-143-medium)
 
 ## Problem #1 [Easy]
 
@@ -1947,4 +1948,20 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 ## Problem #142 [Hard]
 
 [solution](problems_141_150/problem_142.java)
+
+## Problem #143 [Medium]
+
+This problem was asked by <u>Amazon</u>.
+
+Given a pivot ```x```, and a list ```lst```, partition the list into three parts.
+
+- The first part contains all elements in ```lst``` that are less than ```x```
+- The second part contains all elements in ```lst``` that are equal to ```x```
+- The third part contains all elements in ```lst``` that are larger than ```x```
+
+Ordering within a part can be arbitrary.
+
+For example, given ```x = 10``` and ```lst = [9, 12, 3, 5, 14, 10, 10]```, one partition may be ```[9, 3, 5, 10, 10, 12, 14]```.
+
+[solution](problems_141_150/problem_143.java)
 
