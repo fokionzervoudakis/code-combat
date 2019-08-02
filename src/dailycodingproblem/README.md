@@ -1927,6 +1927,16 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 ## Problem #137 [Medium]
 
+This problem was asked by <u>Amazon</u>.
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of ```1``` or ```0``` at each index.
+
+- ```init(size)```: initialize the array with ```size```
+- ```set(i, val)```: updates index at ```i``` with ```val``` where ```val``` is either ```1``` or ```0```.
+- ```get(i)```: gets the value at index ```i```.
+
 [solution](problems_131_140/problem_137.java)
 
 ## Problem #138 [Hard]
@@ -1938,6 +1948,14 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 [solution](problems_131_140/problem_139.java)
 
 ## Problem #140 [Medium]
+
+This problem was asked by <u>Facebook</u>.
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array ```[2, 4, 6, 8, 10, 2, 6, 10]```, return ```4``` and ```8```. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
 
 [solution](problems_131_140/problem_140.java)
 
