@@ -96,41 +96,6 @@
   - [Problem #96 [Easy]](#problem-96-easy)
   - [Problem #97 [Medium]](#problem-97-medium)
   - [Problem #98 [Easy]](#problem-98-easy)
-  - [Problem #111 [Hard]](#problem-111-hard)
-  - [Problem #112 [Hard]](#problem-112-hard)
-  - [Problem #113 [Medium]](#problem-113-medium)
-  - [Problem #114 [Hard]](#problem-114-hard)
-  - [Problem #115 [Hard]](#problem-115-hard)
-  - [Problem #116 [Medium]](#problem-116-medium)
-  - [Problem #117 [Easy]](#problem-117-easy)
-  - [Problem #118 [Easy]](#problem-118-easy)
-  - [Problem #119 [Medium]](#problem-119-medium)
-  - [Problem #120 [Medium]](#problem-120-medium)
-  - [Problem #121 [Hard]](#problem-121-hard)
-  - [Problem #122 [Medium]](#problem-122-medium)
-  - [Problem #123 [Hard]](#problem-123-hard)
-  - [Problem #124 [Easy]](#problem-124-easy)
-  - [Problem #125 [Easy]](#problem-125-easy)
-  - [Problem #126 [Medium]](#problem-126-medium)
-  - [Problem #127 [Easy]](#problem-127-easy)
-  - [Problem #128 [Medium]](#problem-128-medium)
-  - [Problem #129 [Medium]](#problem-129-medium)
-  - [Problem #130 [Medium]](#problem-130-medium)
-  - [Problem #131 [Medium]](#problem-131-medium)
-  - [Problem #132 [Easy]](#problem-132-easy)
-  - [Problem #133 [Medium]](#problem-133-medium)
-  - [Problem #134 [Easy]](#problem-134-easy)
-  - [Problem #135 [Easy]](#problem-135-easy)
-  - [Problem #136 [Medium]](#problem-136-medium)
-  - [Problem #137 [Medium]](#problem-137-medium)
-  - [Problem #138 [Hard]](#problem-138-hard)
-  - [Problem #139 [Medium]](#problem-139-medium)
-  - [Problem #140 [Medium]](#problem-140-medium)
-  - [Problem #141 [Hard]](#problem-141-hard)
-  - [Problem #142 [Hard]](#problem-142-hard)
-  - [Problem #143 [Medium]](#problem-143-medium)
-  - [Problem #144 [Medium]](#problem-144-medium)
-  - [Problem #145 [Easy]](#problem-145-easy)
 
 ## Problem #1 [Easy]
 
@@ -2018,4 +1983,36 @@ Given the head of a singly linked list, swap every two nodes and return its head
 For example, given ```1 -> 2 -> 3 -> 4```, return ```2 -> 1 -> 4 -> 3```.
 
 [solution](problems_141_150/problem_145.java)
+
+## Problem #146 [Medium]
+
+This question was asked by <u>BufferBox</u>.
+
+Given a binary tree where all nodes are either ```0``` or ```1```, prune the tree so that subtrees containing all ```0```s are removed.
+
+For example, given the following tree:
+
+```
+  0
+ / \
+1   0
+   / \
+  1   0
+ / \
+0   0
+```
+
+should be pruned to:
+
+```
+  0
+ / \
+1   0
+   /
+  1
+```
+
+We do not remove the tree at the root or its left child because it still has a ```1``` as a descendant.
+
+[solution](problems_141_150/problem_146.java)
 
