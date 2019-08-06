@@ -97,6 +97,7 @@
   - [Problem #97 [Medium]](#problem-97-medium)
   - [Problem #98 [Easy]](#problem-98-easy)
   - [Problem #147 [Hard]](#problem-147-hard)
+  - [Problem #148 [Medium]](#problem-148-medium)
 
 ## Problem #1 [Easy]
 
@@ -2038,4 +2039,16 @@ We do not remove the tree at the root or its left child because it still has a `
 Given a list, sort it using this method: ```reverse(lst, i, j)```, which reverses ```lst``` from ```i``` to ```j```.
 
 [solution](problems_141_150/problem_147.java)
+
+## Problem #148 [Medium]
+
+This problem was asked by <u>Apple</u>.
+
+Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits ```n```, generate a possible gray code for it.
+
+For example, for ```n = 2```, one gray code would be ```[00, 01, 11, 10]```.
+
+[solution](problems_141_150/problem_148.java)
 
