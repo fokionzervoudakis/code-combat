@@ -96,6 +96,7 @@
   - [Problem #96 [Easy]](#problem-96-easy)
   - [Problem #97 [Medium]](#problem-97-medium)
   - [Problem #98 [Easy]](#problem-98-easy)
+  - [Problem #147 [Hard]](#problem-147-hard)
 
 ## Problem #1 [Easy]
 
@@ -2031,4 +2032,10 @@ should be pruned to:
 We do not remove the tree at the root or its left child because it still has a ```1``` as a descendant.
 
 [solution](problems_141_150/problem_146.java)
+
+## Problem #147 [Hard]
+
+Given a list, sort it using this method: ```reverse(lst, i, j)```, which reverses ```lst``` from ```i``` to ```j```.
+
+[solution](problems_141_150/problem_147.java)
 
