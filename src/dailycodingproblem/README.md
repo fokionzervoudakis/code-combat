@@ -1941,6 +1941,27 @@ A bit array is a space efficient array that holds a value of ```1``` or ```0``` 
 
 ## Problem #139 [Medium]
 
+This problem was asked by <u>Google</u>.
+
+Given an iterator with methods ```next()``` and ```hasNext()```, create a wrapper iterator, ```PeekableInterface```, which also implements ```peek()```. ```peek``` shows the next element that would be returned on ```next()```.
+
+Here is the interface:
+
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
+
 [solution](problems_131_140/problem_139.java)
 
 ## Problem #140 [Medium]
