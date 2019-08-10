@@ -99,6 +99,7 @@
   - [Problem #147 [Hard]](#problem-147-hard)
   - [Problem #148 [Medium]](#problem-148-medium)
   - [Problem #149 [Hard]](#problem-149-hard)
+  - [Problem #150 [Hard]](#problem-150-hard)
 
 ## Problem #1 [Easy]
 
@@ -2089,4 +2090,14 @@ For example, given ```L = [1, 2, 3, 4, 5]```, ```sum(1, 3)``` should return ```s
 You can assume that you can do some pre-processing. ```sum()``` should be optimized over the pre-processing step.
 
 [solution](problems_141_150/problem_149.java)
+
+## Problem #150 [Hard]
+
+This problem was asked by <u>LinkedIn</u>.
+
+Given a list of points, a central point, and an integer ```k```, find the nearest ```k``` points from the central point.
+
+For example, given the list of points ```[(0, 0), (5, 4), (3, 1)]```, the central point ```(1, 2)```, and ```k = 2```, return ```[(0, 0), (3, 1)]```.
+
+[solution](problems_141_150/problem_150.java)
 
