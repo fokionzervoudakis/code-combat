@@ -100,6 +100,10 @@
   - [Problem #148 [Medium]](#problem-148-medium)
   - [Problem #149 [Hard]](#problem-149-hard)
   - [Problem #150 [Hard]](#problem-150-hard)
+  - [Problem #151 [Medium]](#problem-151-medium)
+  - [Problem #152 [Medium]](#problem-152-medium)
+  - [Problem #153 [Hard]](#problem-153-hard)
+  - [Problem #154 [Easy]](#problem-154-easy)
 
 ## Problem #1 [Easy]
 
@@ -2100,4 +2104,32 @@ Given a list of points, a central point, and an integer ```k```, find the neares
 For example, given the list of points ```[(0, 0), (5, 4), (3, 1)]```, the central point ```(1, 2)```, and ```k = 2```, return ```[(0, 0), (3, 1)]```.
 
 [solution](problems_141_150/problem_150.java)
+
+## Problem #151 [Medium]
+
+[solution](problems_151_160/problem_151.java)
+
+## Problem #152 [Medium]
+
+[solution](problems_151_160/problem_152.java)
+
+## Problem #153 [Hard]
+
+[solution](problems_151_160/problem_153.java)
+
+## Problem #154 [Easy]
+
+[solution](problems_151_160/problem_154.java)
+
+This problem was asked by <u>Amazon</u>.
+
+Implement a stack API using only a heap. A stack implements the following methods:
+
+- ```push(item)```, which adds an element to the stack
+- ```pop()```, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+
+Recall that a heap has the following operations:
+
+- ```push(item)```, which adds a new key to the heap
+- ```pop()```, which removes and returns the max value of the heap
 
