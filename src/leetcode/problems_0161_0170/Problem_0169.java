@@ -2,7 +2,10 @@ package leetcode.problems_0161_0170;
 
 import annotation.Favorite;
 
-class Problem_0169 {
+/**
+ {@link dailycodingproblem.problems_151_160.Problem_155}
+ */
+public class Problem_0169 {
     /**
      Uses the Boyer-Moore majority vote algorithm to find the majority element in
      an array of integers

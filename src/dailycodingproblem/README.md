@@ -104,6 +104,7 @@
   - [Problem #152 [Medium]](#problem-152-medium)
   - [Problem #153 [Hard]](#problem-153-hard)
   - [Problem #154 [Easy]](#problem-154-easy)
+  - [Problem #155 [Medium]](#problem-155-medium)
 
 ## Problem #1 [Easy]
 
@@ -2132,4 +2133,16 @@ Recall that a heap has the following operations:
 
 - ```push(item)```, which adds a new key to the heap
 - ```pop()```, which removes and returns the max value of the heap
+
+## Problem #155 [Medium]
+
+This problem was asked by <u>MongoDB</u>.
+
+Given a list of elements, find the majority element, which appears more than half the time (```> floor(len(lst) / 2.0)```).
+
+You can assume that such element exists.
+
+For example, given ```[1, 2, 1, 1, 3, 4, 0]```, return 1.
+
+[solution](problems_151_160/problem_155.java)
 
