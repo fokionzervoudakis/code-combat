@@ -1988,6 +1988,22 @@ Follow-up: Can you do this in linear time and constant space?
 
 ## Problem #141 [Hard]
 
+This problem was asked by <u>Microsoft</u>.
+
+Implement 3 stacks using a single list:
+
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
+
 [solution](problems_141_150/problem_141.java)
 
 ## Problem #142 [Hard]
