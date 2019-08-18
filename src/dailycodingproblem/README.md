@@ -105,6 +105,10 @@
   - [Problem #153 [Hard]](#problem-153-hard)
   - [Problem #154 [Easy]](#problem-154-easy)
   - [Problem #155 [Medium]](#problem-155-medium)
+  - [Problem #156 [Medium]](#problem-156-medium)
+  - [Problem #157 [Medium]](#problem-157-medium)
+  - [Problem #158 [Medium]](#problem-158-medium)
+  - [Problem #159 [Medium]](#problem-159-medium)
 
 ## Problem #1 [Easy]
 
@@ -2165,4 +2169,26 @@ You can assume that such element exists.
 For example, given ```[1, 2, 1, 1, 3, 4, 0]```, return 1.
 
 [solution](problems_151_160/problem_155.java)
+
+## Problem #156 [Medium]
+
+[solution](problems_151_160/problem_156.java)
+
+## Problem #157 [Medium]
+
+[solution](problems_151_160/problem_157.java)
+
+## Problem #158 [Medium]
+
+[solution](problems_151_160/problem_158.java)
+
+## Problem #159 [Medium]
+
+This problem was asked by <u>Google</u>.
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[solution](problems_151_160/problem_159.java)
 
