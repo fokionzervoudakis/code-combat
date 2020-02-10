@@ -30,12 +30,16 @@ class Problem_141 {
         }
 
         private int getOffset(int i) {
-            return switch (i) {
-                case 0 -> 0;
-                case 1 -> M.get(0);
-                case 2 -> M.get(0) + M.get(1);
-                default -> throw new RuntimeException();
-            };
+            switch (i) {
+                case 0:
+                    return 0;
+                case 1:
+                    return M.get(0);
+                case 2:
+                    return M.get(0) + M.get(1);
+                default:
+                    throw new RuntimeException();
+            }
         }
 
         private void increment(int i) {

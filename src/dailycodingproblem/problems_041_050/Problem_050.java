@@ -18,16 +18,21 @@ class Problem_050 {
     int eval(Node n) {
         var c = n.val;
         if (c >= '0' && c <= '9') {
-            return c -'0';
+            return c - '0';
         } else {
             int l = eval(n.l), r = eval(n.r);
-            return switch (c) {
-                case '*' -> l * r;
-                case '+' -> l + r;
-                case '-' -> l - r;
-                case '/' -> l / r;
-                default -> throw new RuntimeException();
-            };
+            switch (c) {
+                case '*':
+                    return l * r;
+                case '+':
+                    return l + r;
+                case '-':
+                    return l - r;
+                case '/':
+                    return l / r;
+                default:
+                    throw new RuntimeException();
+            }
         }
     }
 
