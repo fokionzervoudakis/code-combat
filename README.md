@@ -2,10 +2,6 @@
 
 This project implements solutions to coding problems.
 
-## Dependencies
-
-- *Java 12*
-
 ## Deployment
 
 Clone the repository and build:
