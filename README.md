@@ -2,14 +2,23 @@
 
 This project implements solutions to coding problems.
 
-## Deployment
-
-Clone the repository and build:
+Clone and navigate to the repository.
 
 ```
-git clone git@gitlab.com:fzervoudakis/code-combat.git
+git clone git@github.com:fokionzervoudakis/code-combat.git
 cd code-combat/
+```
+
+Build with *bash*.
+
+```
 chmod +x build.sh
 ./build.sh
 ```
 
+Merge all source files for easy revision.
+
+```
+chmod +x merge.sh
+./merge.sh
+```

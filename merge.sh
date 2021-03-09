@@ -10,4 +10,3 @@ do
 	printf '=%.0s' {1..50} >> all.txt
 	echo >> all.txt
 done
-

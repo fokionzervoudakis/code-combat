@@ -23,4 +23,3 @@ java -ea -cp .:${junit}:build/classes/:build/testclasses/:lib/*:lib/test/* \
 		--details tree \
 		--scan-classpath \
 		--include-classname '.*Test.*'
-
