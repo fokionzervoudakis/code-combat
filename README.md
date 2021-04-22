@@ -5,7 +5,7 @@ This project implements solutions to coding problems.
 Clone and navigate to the repository.
 
 ```
-git clone git@github.com:fokionzervoudakis/code-combat.git
+git clone git@github.com:fokionzd/code-combat.git
 cd code-combat/
 ```
 
